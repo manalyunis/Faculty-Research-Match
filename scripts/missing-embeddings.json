@@ -1,0 +1,706 @@
+{
+  "total": 100,
+  "timestamp": "2025-09-15T19:43:05.868Z",
+  "faculty": [
+    {
+      "faculty_id": "199632620",
+      "name": "Ozeir, Ms. Vanessa Khalil Vanessa, Dammous",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "199634510",
+      "name": "Skaff, Mr. Roger Ibrahim",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "199635460",
+      "name": "Aboulhosn, Dr. Rafah Ziad",
+      "keywords": "BurNout,  Hospital, Pharmacists",
+      "keywordLength": 31,
+      "category": "short"
+    },
+    {
+      "faculty_id": "199690230",
+      "name": "Zouein, Dr. Pierrette Pierre",
+      "keywords": "Ant colony optimization, dynamic construction site layout, dynamic facility layout, metaheuristics\r\n\r\nTechnological innovation, schedules, hospitals, digital transformation, decision making, layout, resource management, optimization, floors, decision-making tool, planning phase, layout design, shelf life, linear programming\r\n\r\nCommon side effects, dosage forms, security level, medication errors, dose concentration, Piperacillin-tazobactam, space utilization, medication names, safety stock, historical demand, Ciprofloxacin, University Medical Center, medication management system, medical dispenser, replenishment policy, layout design\r\n\r\nComputer vision, technological innovation, machine learning, airports, agent-based modeling, Fourth Industrial Revolution, discrete event simulation, sustainable development, intelligent systems, optimization, revenue generation, passenger flow, simulation model, multi-agent, intelligent systems, simulation techniques, digital transformation\r\n\r\nDiscrete event simulation, group size, machine learning models, machine learning techniques, scoring function, Internet of Things, real-world data, historical analysis, industrial systems, waiting time, key performance indicators, data layers, cyber-physical systems, simulation module, adaptive decision-making, computer vision system, real-time optimization, data-driven decision-making\r\n\r\nReal-world implementation, data retention, cycle events, walking speed, face recognition, Industry 4.0, airport optimization, computer vision, machine learning, simulation, passenger flow management, revenue maximization, IoT, artificial intelligence, agent-based modeling, discrete event simulation",
+      "keywordLength": 1682,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199690250",
+      "name": "Saab, Dr. Samer Said",
+      "keywords": "Iterative learning control, industrial robot manipulator, initial state mismatch, PID control, Multivariable control, proportional-derivative-double derivative control, stochastic control, robot manipulator, Quantization (signal), Probabilistic logic, Convergence, Learning systems, Uncertainty, Linear systems, Additives, Linear System, Learning Control, Performance Indicators, Convergence Rate, Additive Noise, Random Noise, Network System, Optimal Sequence, Quantization Error, Tracking Performance, Constant Gain, Input Error, Learning Process, Random Variables, Communication Channels, Positive Definite Matrix, Lyapunov Function, Tracking Error, Control Objective, Uniform Quantization, Quantization Levels, Iterative Learning Control, Asymptotic Expansion, Learning Gain, Presence Of Uncertainty, Actual Error, Square Matrix, Performance In The Presence, Lyapunov Equation, Channel noise, learning gain design, performance analysis, probabilistic quantizer, quantized learning control (QLC)\r\n\r\nPublic health, Pandemic response, COVID-19, Italy, India\r\n\r\nNoise measurement, Convergence, Transient analysis, Time-varying systems, Task analysis, Stochastic systems, Trial Length, Adaptive Gain, Numerical Simulations, Markov Chain, Linear System, Tracking Performance, Robotic Arm, Linear Stochastic Systems, Control Design, Nonlinear Systems, Input Signal, Random Noise, Transition Probabilities, Adaptive Algorithm, Time Instants, Tracking Error, Control Objective, Joint Position, Actual Length, Sliding Mode Control, Iterative Learning Control, Joint Velocity, Learning Gain, Reference Tracking, Robot Manipulator, Learning Control, Iteration Number Increases, Precise Tracking, Adaptive gains, iterative learning control (ILC), Markov chain, nonuniform trial length\r\n\r\nScholarly publishers, Scholarly engagement, Citation count, Views count, Scientific leadership, Bibliometrics, Journal rankings, Academic journals, ABDC List, University rankings, Journal, Impact Factor\r\n\r\nRecurrent neural networks, Long short-term memory, Lyapunov stability, Gender equity, Education, Bibliometrics, Reflection, Teamwork, Gender Inequality, Peer-reviewed Journals, Male Counterparts, Bibliometric, Research Engagement, Gender Representation, Single Author, American Policy, Female Authors, Female Faculty, Male Faculty, Female Students, Number Of Authors, Leadership Positions, Counting Method, Scholarly Work, Female Counterparts, Male Members, Impact Of Gender, Male Authors, Female Researchers, Feminist Identity, Public Venues, Male Academics, Full Count, Conference Articles, Author Position, Anti-discrimination, Average Number Of Citations, authorship, bibliometric, gender equity, harmonic counting, women engineers\r\n\r\nDeep learning, gradient descent optimization, adaptive learning rate, Polyak heavy-ball, Gradient descent, Global convergence, Interviews, Optimization, Trajectory, Data models, Convergence, Aerospace electronics, Performance analysis, Numerical simulation, Learning Control, Tracking Problem, Learning Control Algorithm, System Output, Input Sequence, Tracking Error, Reference Trajectory, Gradient Information, Least-squares Sense, Learning Gain, Iterative Learning Control, Model System, Solid Line, Incomplete Data, Linear System, Nonlinear Systems, Time Instants, System Matrix, Control Objective, Tracking Performance, Data Dropouts, Perfect Tracking, Unique Input, Data-driven Strategy, Scalar Matrix, Input Error, Random Data, Random Sampling Strategy, Entire Interval, Spectral Radius, Data-driven algorithms, incomplete information, iterative learning control, gradient information, unachievable problems\r\n\r\nARWU, THE, QS, research assessment, citation metrics, ranking evaluation, citation-based metrics, Questionable authorship, bibliometrics, research integrity, sampling bias, control group, causality, multi-affiliation\r\n\r\nConvergence, Noise, Noise measurement, Accuracy, Vectors, Measurement uncertainty, Iterative learning control, Uncertainty, Random variables, Discrete-time systems, Weighting Scheme, Iterative Learning Control, Convergence Rate, Large Errors, Error Signal, Asymptotic Expansion, Learning Control, Iterative Learning, Logarithmic Scale, Random Noise, Mean Absolute Error, Feedback Control, Tracking Performance, Error Reduction, Convergence Results, Slow Convergence, System Noise, Second Set Of Experiments, Positive Part, Almost Surely, Learning Gain, Transient Growth, Early Iterations, Constant Gain, Non-minimum Phase, Maximum Absolute Error, Acceleration Effect, Stochastic Approximation, Gain Matrix, Tuning Parameter, Accelerated convergence rate, iterative learning control (ILC), noisy error-adaptive weighting strategy (NEWS), saturation mechanism",
+      "keywordLength": 4719,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199690300",
+      "name": "Chatila, Dr. Jean Georges",
+      "keywords": "Chicken manure, Computed Tomography Scanning (CT), Cover crop, Organic matter, Physical and structural properties, Straw residues",
+      "keywordLength": 129,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199704790",
+      "name": "Zeaiter, Dr. Hussein Fadlallah",
+      "keywords": "sovereign debt default, extreme bound analysis, IMF, panel\r\n\r\nconditionality, education expenditures, panel data, fixed effects, IMF, SDGs, educational attainment, MENA region, socio‐economic drivers",
+      "keywordLength": 199,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199705300",
+      "name": "Farah, Dr. Maya Fouad Maya F., Farah",
+      "keywords": "Fashion brands; Virtual fashion shows; Metaverse; Consumer journey; Generational differences\r\n\r\nInclusive beauty; Physical disabilities; Psychological wellbeing; Brand addiction; Consumer behavior; Marketing strategies; Emotional connection; Accessibility; SDG 10; Vulnerable consumers\r\n\r\nBrands; Generative AI; Metaverse; Need for uniqueness; Place attachment; Self-identity expression; Virtual worlds\r\n\r\nMetaverse; People with disabilities; Need for uniqueness; Acceptance of disability; Place attachment\r\n\r\nLuxury brands; Digital fashion shows; Social media; Sentiment analysis\r\n\r\nSocial networking sites; Social media; Brand relationship; Brand community; Consumer experience\r\n\r\nTourism; Amazon; Experience; Hospitality; Virtual\r\n\r\nCOVID-19; Pandemic; E-commerce; Online shopping; Typology\r\n\r\nBlockchain; Banking services; Financial well-being; Customer perception; Digital finance; Fintech adoption; Trust; Service innovation; Consumer behavior; Structural model\r\n\r\nCustomer retention; Social aspects; Service relationships; Consumer behavior; Brand loyalty; Relationship marketing; Customer engagement; Private label; National brand; Business strategy\r\n\r\nFacebook; Social networking sites; Insurance; Retention; Social advertising\r\n\r\nOnline food aggregators; Consumer journey; Food and beverage sector; Online food delivery; Customer behavior; Emerging markets; Middle East; Restaurants; Customer retention; Digital transformation\r\n\r\nLuxury; Technology; nWOM; Consumer behavior; Social media; Mobile commerce; WhatsApp\r\n\r\nTech disruptions; Consumer journey; Digital transformation; Innovation; Consumer behavior; Marketing strategies; Online platforms; Customer experience\r\n\r\nPerceptions; Brands; Behaviors; Strategy; Attitudes; Social media; SNS; Fake news; Sharing motives; Consumers’ perceptions\r\n\r\nSocial media; Tourism industry; Technology acceptance model; Pakistan\r\n\r\nInformation transparency; Retail investor; Financial well-being; Financial risk tolerance; Transformative service research\r\n\r\nEthnocentrism; The Muslim consumer; Trust; Willingness to buy; Halal market; Product judgment\r\n\r\nAmazon Prime; Online membership programs; Self-control; Trust; Affective attachment; Impulse buying; Consumer behavior; Retailer–consumer relationships\r\n\r\nAlexa; Artificial intelligence; Special needs; Companionship; Independence; Consumer relationships; Corporate image\r\n\r\nConsumer ethnocentrism; Consumer animosity; Literature review; Research gaps; Historical evolution; Quantitative studies",
+      "keywordLength": 2498,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199709080",
+      "name": "Dagher, Dr. Grace Khalil",
+      "keywords": "grit, consistency of interest, perseverance of effort, employee performance, work engagement, employee engagement\r\n\r\nAI, ChatGPT, cultural upbringing, higher education, gender\r\n\r\nself-leadership, employee engagement, perceived organizational support, Lebanon, UAE\r\n\r\nArab world, ethics, social capital, social networks, wasta, work engagement",
+      "keywordLength": 342,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199729070",
+      "name": "Houri, Dr. Ahmad Farouk Ahmad, Houri",
+      "keywords": "breast cancer, Sternbergia clusiana, phytochemicals, apoptosis, antioxidant / Azolla; CO2 sequestration; Carbon dioxide (CO2); Global warming; Greenhouse gas",
+      "keywordLength": 157,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199729410",
+      "name": "Haraty, Dr. Ramzi Ahmed",
+      "keywords": "Transfer Learning, Sentiment Analysis, Lebanese Dialect, Multilingual Deep Learning, XLM-RoBERTa, Low-Resource Language\r\n\r\nCLOUD Computing, COMPUTER Systems, BLOCKCHAINS, DATA Modeling, COST\r\n\r\nBrain Computer Interface, Classification, Deep Learning, Electroencephalography, Neural Networks\r\n\r\nClustering, k-Means, G-Means, DBSCAN, Agglomerative Clustering, Two-Stage Density Clustering, Two-Stage (MeanShift and k-Means) Clustering Algorithm\r\n\r\nPredictive Health, Health Analytics, Mathematical Modeling, Machine Learning, Framework, Applied Analysis\r\n\r\nBlockchain, Sharding, Consensus Protocol, Load Balancing, Centralized Algorithms, Decentralized Algorithms\r\n\r\nCOVID-19, Fake News, Public Health, Machine Learning, Support Vector Machine, Deep Learning, Social Media, Analytical Models\r\n\r\nGREEDY Algorithms, DISTRIBUTED Algorithms, ALGORITHMS, INFANTRY\r\n\r\nCache Management, Network Traffic, Hit Ratio, Total Delay\r\n\r\nMANETs, Mobile Ad Hoc Networks, SDODV, On-Demand Distance Vector Routing, Adaptive Routing, IoT, Smart Cities, Energy Efficiency, Network Stability, Reinforcement Learning\r\n\r\nINFORMATION Retrieval, NATURAL Language Processing, NATURAL Languages, INFORMATION Processing, JSON (Document Markup Language), AUTOMATIC Indexing, ENCYCLOPEDIAS & Dictionaries, NEW Words, SYNONYMS\r\n\r\nInformation Systems, Data Management Systems, Database Management System Engines, Information Systems Applications\r\n\r\nDamage Assessment, Database Recovery, Distributed Databases, Transactional Dependency, Information Warfare\r\n\r\nData Integrity, Data Recovery, Hash Function, Fog Computing, Healthcare Organizations, Malicious Transaction, Affected Transaction, Internet of Things, Smart City, Recovery Algorithm\r\n\r\nAppliance Scheduling, Genetic Algorithms, Heuristic Optimization, Smart Grids\r\n\r\nHash-Based Algorithm, Data Integrity, Healthcare Systems, Assessment, Recovery, Security, Fault Tolerance, Electronic Health Records, System Reliability\r\n\r\neHealth, Digital Health, Health Technology, Patient Outcomes, Interoperability, Data Security, Telemedicine, Health Behavior, Internet of Things, Healthcare Delivery\r\n\r\nDamage Assessment, Information Warfare, Malicious Transactions, Transaction Dependency\r\n\r\nGreen Computing, Sustainable Software Engineering, Green Cloud Computing, Mobile Development, Data Center, Education\r\n\r\nCall Detail Records, Graph Anonymization, Differential Privacy, Blowfish Privacy, Multi-Release Datasets\r\n\r\nHealthcare, Medical Data, Privacy, Data Sharing, Blockchain, Security, Patient-Driven System",
+      "keywordLength": 2527,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199736770",
+      "name": "Tokajian, Dr. Sima Toros",
+      "keywords": "Surface water, antibiotic resistance, population mobility, Escherichia coli, mobile elements, infectious diseases, viral diseases, vaccines, influenza, COVID-19, SASR-CoV-2, Lebanon, SNV analysis, B.1 (20A clade), B.4 (19A clade), epidemiology, pandemic, public health\r\n\r\nSARS-CoV-2, genomic surveillance, air travel, genomics, genome sequencing, virus, surveillance, B.1.1.7, B.1.351, N501Y, coronavirus, sequencing, genomic epidemiology\r\n\r\nDrug repositioning, molecular modelling, Beauvericin, surface water, population mobility, Escherichia coli, whole-genome sequencing, plasmids, Leishmania, RNA-Seq, gene expression, promastigotes, amastigotes, macrophages, skin lesions, metatranscriptomics\r\n\r\nGenomic surveillance, air travel, SARS-CoV-2, genomics, genome sequencing, virus, surveillance, pandemic, B.1.1.7, B.1.351, N501Y, coronavirus, sequencing, genomic epidemiology\r\n\r\nMcr-9, colistin, Enterobacter hormaechei, qseB, qseC, COVID-19, T2D, corticosteroids, mucormycosis, IL-37, Beauvericin, docking, dynamic simulation, spike protein, main protease, SARS-CoV-2, antibacterial activity, antifungal activity, Benzaldehyde-4-methylthiosemicarbazone, Cu(II), Zn(II), Cd(II) complexes, ceftolozane/tazobactam, Pseudomonas aeruginosa, AmpC, porins, beta lactamases\r\n\r\nSnails, biomonitoring, pesticides, apple orchard, low- and middle-income countries, molecular epidemiology, next-generation sequencing platforms\r\n\r\nLeishmania tropica, macrophages, miltefosine, drug discovery, gene expression, absolute quantification\r\n\r\nHelix aspersa, microcosms, partitioning factors, soft tissues, shells\r\n\r\nESBL, Enterobacter, Klebsiella aerogenes, b-lactamases, multidrug resistance\r\n\r\nNEK8, genetic variant, autosomal dominant, nephronophthisis\r\n\r\nCarbapenemases, carbapenem-resistant Enterobacteriaceae, IncFIB(K), NDM, OXA-48, Omicron, XBB, XBB.1.5, carbapenem, K. pneumoniae, E. coli, blaNDM, blaOXA-48\r\n\r\nC. aspersum, microcosms, environmental contamination, persistent organic pollutants\r\n\r\nAcinetobacter calcoaceticus, biodegradation, bioremediation, chlorpyrifos, plant growth enhancement, Stenotrophomonas maltophilia\r\n\r\nSARS-CoV-2, XBB, Omicron, XBB.1.5, Mycobacterium tuberculosis complex, Mycobacterium bovis, WGS, MDR\r\n\r\nKlebsiella pneumoniae, Klebsiella quasipneumoniae, Klebsiella variicola, ST147, NDM\r\n\r\nMycotoxin, computer-aided drug discovery, natural compounds, beauvericin, repurposing\r\n\r\nE. coli, K. pneumoniae, blaNDM-19, IncX3, Leishmania tropica, leishmaniasis, drug resistance, ABC transporter\r\n\r\nKlebsiella pneumoniae, colistin resistance, heteroresistance, lipid A modifications, IS elements, mgrB\r\n\r\nCandida albicans, Upc2, azoles, resistance, ergosterol\r\n\r\nLeishmania, leishmaniasis, Moxidectin, drug repurposing, RNA-Seq, drug resistance\r\n\r\nBeauveria bassiana, blastospores, dimorphic fungi, DNA extraction, mycelia, RT-qPCR, Leishmaniasis, Leishmania tropica, Beauvericin, drug resistance, RNA-Seq, Galleria mellonella model\r\n\r\nKidney disorders, urinary disorders, traditional medicine, anthropology, ethnopharmacology\r\n\r\nDown syndrome, microbiome, chromosome 21, trisomy 21, twin studies\r\n\r\nBrucellosis, zoonotic disease, Brucella, livestock, public health threats\r\n\r\nStreptococcus oralis, urinary tract infection, Type VII Secretion System (T7SS)",
+      "keywordLength": 3273,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199790270",
+      "name": "Abou Arbid, Ms. Silia Abdallah",
+      "keywords": "Blended Learning, Foundation studio, In-person learning",
+      "keywordLength": 55,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199800330",
+      "name": "Slim, Mr. Bassem Mohamad",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "199805770",
+      "name": "Eido, Ms. Dana Hani",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "199814500",
+      "name": "Khoury Nicolas, Mr. Melhim Ibrahim",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "199829020",
+      "name": "Moukary, Dr. May Fouad May, Hamdan",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "199829030",
+      "name": "Oueini, Dr. Ahmad Abdul-Mawla Ahmad A., Oueini",
+      "keywords": "Information and Communication Technology (ICT), Teachers’ Attitude, ICT Usage, Teachers’ Experience\r\n\r\nDyslexia, Arabic Language, Arab World, Modern Standard Arabic, Dialects, Linguistic Diversity, Reading Difficulties, Phonology, Cross-Cultural Communication, Language Variation\r\n\r\nTeacher Bullying, Students, Teachers’ Perceptions, School Bullying, Classroom Management, Disruptive Behavior, Qualitative Research, Quantitative Research, Preventive Measures, Lebanon, Inclusive Education\r\n\r\nFirst Names, Lebanon, world traditions, College students, naming trends, Arab\r\n\r\nFamily Influence; Family Support; Family Expectations; Career-Decision; Occupation; Socio-Economic Status; Career Path; Major Choice; Career Satisfaction\r\n\r\nADHD, Online Information, Credibility, Accuracy, Language Discourse, Arab World, MENA Region, Health Communication, Website Content Analysis, Caregivers, Parents, Teachers\r\n\r\nDyslexia, Arabic Language, Diglossia, Bilingualism, Educational Assessment, Intervention Strategies, Teacher Training, Policy Recommendations, Cultural Perspectives, Language Acquisition\r\n\r\nDyslexia, Lebanon, education\r\n\r\nDyslexia, Arab World, education",
+      "keywordLength": 1158,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199829370",
+      "name": "Jamati, Dr. Sandra Elias Sandra, Rizk-Jamati",
+      "keywords": "Urtica dioica, Cisplatin, Combination therapy, Ovarian cancer, Apoptosis, Motility\r\nUrtica dioica; ovarian cancer; apoptosis; alternative medicine; autophagy; cell motility",
+      "keywordLength": 172,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "199834600",
+      "name": "Chalhoub, Dr. Elie Robert",
+      "keywords": "Carbon deposition, CFD modeling, Dry reforming of methane, Reactor design, Syngas\r\n\r\nBOH3, Butanol, Food waste, Hydrogen, Kinetic model, Simultaneous saccharification and fermentation\r\n\r\nEthanol metabolism, Gluconeogenesis, Lipids, Liver, Mathematical model\r\n\r\nABE fermentation, Butanol, Mathematical model, Zinc supplement",
+      "keywordLength": 323,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200200031",
+      "name": "Aouad, Mr. David Robert",
+      "keywords": "\r\nheritage preservation, mud architecture, Wadi Hanifa, cultural preservation, community\r\nengagement-Beirut, Beirut Urban Declaration, divided city, divided society, intra‐urban inequalities, neighborhood planning;\r\nsustainable post‐war recovery-Beirut, sustainable urban design, Karantina, port of Beirut blast, stakeholder participation-Beirut, sustainable urban design, Karantina, port of Beirut blast, stakeholder participation",
+      "keywordLength": 431,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200200185",
+      "name": "Marrouch, Dr. Walid Nazir Walid, Marrouch",
+      "keywords": "Solar water heater, Households, Energy poverty, Palestinian Territories\r\n\r\nPoverty dynamics, stochastic dominance, data deprivation, Lebanon\r\n\r\nDemocracy, Economic development, Legal origin, Natural resources, War\r\n\r\nEnvironmental externality, Abatement, Emission tax, Market power\r\n\r\nCivil war, Interstate war, Pollution, Difference-in-differences, Legal origin\r\n\r\nPM2.5 pollution; Central air conditioning; Indoor air quality; Housing; Averting behavior; Lebanon; C35; Q53; R31\r\n\r\nAir Pollution, Happiness, Policy Valuation, Climate Change, Environmental Policies, Pollution Taxes, Pollution Abatement Subsidies\r\n\r\nClimate risk, Fossil fuel, Scarcity, Uncertainty\r\n\r\nBertrand competition; Differentiated products; Environmental taxation; Location; Green preferences\r\n\r\nConfidence; institutions; uprising; ordinal variable\r\n\r\nAdaptation funding, Greenhouse gas emissions, Halo effect, CO2, Climate change, UNFCCC\r\n\r\nHousing; Lebanon; Willingness to pay; Air pollution; Hedonic pricing; Frontier models\r\n\r\nEnvironmental quality, Youth, MENA",
+      "keywordLength": 1040,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200200249",
+      "name": "Khayat, Ms. Sophie Samir",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200200810",
+      "name": "Doumit, Dr. Rita Youssef",
+      "keywords": "Community engagement, COVID-19, Lebanon, Perceptions, Process evaluation, Zimbabwe\r\n\r\nBody image dissatisfaction, Physical activity, Social media, Young adults\r\n\r\nAdolescent, Anxiety, Cross-sectional studies, Female, Humans, Lebanon, Male, Psychiatric status rating scales, Psychometrics, Reproducibility of results, Stress disorders, Post-traumatic, Surveys and questionnaires\r\n\r\nAdolescent, Anxiety, Cross-sectional studies, Depression, Female, Humans, Lebanon, Male, Psychometrics, Reproducibility of results, Surveys and questionnaires, World Health Organization, Young adult\r\n\r\nHealth promotion, Healthy behavior, Political uncertainty, Undergraduate nursing students\r\n\r\nHealth promotion, Healthy lifestyle, Low-income country, Undergraduate nursing students\r\n\r\nCross-sectional studies, Education, Nursing, Baccalaureate, Ethnic groups, Faculty, Nursing, Humans, Students, Nursing",
+      "keywordLength": 885,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200201071",
+      "name": "Chamoun, Dr. Nibal Rachid",
+      "keywords": "Burnout, Hospital, Pharmacists\r\n\r\nClinical pharmacist, Competency framework, Hospital pharmacist, Specialized competency, Tool validation\r\n\r\nArginine, Atorvastatin, COVID-19, Double-blind method, Folic acid, Humans, Hydroxymethylglutaryl-CoA reductase inhibitors, Middle aged, Nebivolol, Nicorandil, SARS-CoV-2, Treatment outcome\r\n\r\nPharmaceutical care and dispensing laboratory, Pharmacy curriculum, PPCP model\r\n\r\nClinical, COVID-19, Microvascular angina, Pharmacology\r\n\r\nAnticoagulation, Bleeding, Discharge counseling, Readmissions, Transitions of care\r\n\r\nCOVID-19, Epidemiology, Pharmacology",
+      "keywordLength": 595,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200201315",
+      "name": "Touma, Dr. Walid Rachid",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200201344",
+      "name": "Taoum, Ms. Deliah Rhonda",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200203127",
+      "name": "Hajj, Dr. Mohamad Ghassan",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200300427",
+      "name": "Khalaf, Dr. Roy Aziz",
+      "keywords": "Antifungal resistance; azoles; Candida albicans; ergosterol; virulence; whole genome sequencing.\r\nCandida albicans; mass spectrometry; fluconazole; azole resistance; cell wall\r\nCandida glabrata, Echinocandin, Micafungin, Fluconazole, Chitin, Cell wall\r\nDrug resistance; ergosterol; chitin; biofilm; whole-genome sequencing\r\nAdhesion, azoles, biofilm, Candida glabrata, resistance, sequencing\r\nCandida albicans, Upc2, Azoles, Resistance, Ergosterol\r\nCandida parapsilosis, Pathogenicity, Biofilm, Resistance, Fluconazole, Clonality\r\nCandida glabrata; fluconazole; caspofungin; tolerance; yeast",
+      "keywordLength": 591,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200300531",
+      "name": "Sadaka, Dr. George Faris",
+      "keywords": "mirror, desire, Lacan, Thanatos, Eros, women’s writing, Euphoria, aporia, escapism, port blast, COVID-19, October 2019 uprising, Lacan; diary; women’s emancipation; language; chora",
+      "keywordLength": 180,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200300862",
+      "name": "Abdo, Ms. Ramona Antoine",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200300863",
+      "name": "Mohsen, Dr. Nadim Abdullah",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200300954",
+      "name": "El Saadi, Ms. Reem Omar",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200301034",
+      "name": "Kouatli, Dr. Issam Mustapha",
+      "keywords": "decision-making; flexibility; fuzzy logic; Fuzzy real options; project valuation; uncertainty\r\n\r\nCognitive modelling, Fuzzy system, Technical analysis, Trading systems, Stock trading optimization, Fuzzimetric sets\r\n\r\nTechnical Analysis, Stock-Trading systems, decision making\r\n\r\nFuzzimetric sets, Fuzzy logic, Predictive analytics, Emotional stock trading, Technical analysis, Trading optimization\r\n\r\nTechnical analysis, Trading systems, Trading optimization, Fuzzy logic, Fuzzimetric Ares",
+      "keywordLength": 489,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200301117",
+      "name": "Cherfane, Dr. Michele Melhem",
+      "keywords": "Benefits, Information, Knowledge, Lebanon, Oral contraceptive pills, Risks, Women’s health\r\n\r\nAwareness, Educational video, Health promotion, Population health, Stroke\r\n\r\nArab countries, Educational tool, Knowledge, Stroke, Video\r\n\r\nEpidemiology, Lifestyle behaviour, Risk factors, Socio-economic status, Uncontrolled hypertension\r\n\r\nCOVID-19, Healthcare workers, Multi-country survey, Psychological distress, Work fatigue\r\n\r\nCOVID-19, Multi-country study, Pharmacists, Posttraumatic stress disorder, Resilience, Work fatigue\r\n\r\nAwareness, Elderly, Knowledge, Lebanon, Senior citizens, Stroke\r\n\r\nChatGPT, Subspecialties, Written medical examinations\r\n\r\nDiabetes, Economic crisis, Healthcare for all, Hypertension, Medications\r\n\r\nCounseling, Knowledge, Nutrition, University students, Willingness\r\n\r\nFactor analysis, Statistical, Health knowledge, Attitudes, Practice, HIV infections, Humans, Lebanon, Multivariate analysis, Regression analysis, Reproducibility of results\r\n\r\nAttitude, Determinant, Habit, Non-pharmacy, Pharmacy, Smoking\r\n\r\nCOVID-19, Liver, MAFLD, NAFLD, SARS-CoV-2\r\n\r\nHypothalamus-pituitary-gonadal axis, Menstruation, Ovarian, Sexual dysfunction, Spermatogenesis, Testis\r\n\r\nCOVID-19, Frontline, Lebanon, Mental health, Pharmacists\r\n\r\nCOVID-19, Health behaviour, Pharmacist, Self-medication, Social media\r\n\r\nCOVID-19, Lebanon, Online education, Perception, Pharmacy education\r\n\r\nAttitude, Community pharmacist, Dermatology, Perception, Skin diseases\r\n\r\nErratum",
+      "keywordLength": 1477,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200301502",
+      "name": "El Chidiac, Ms. Jemma Elizabeth Fahd",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200301925",
+      "name": "Dabaghi, Ms. Evelyn Ghassan",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "200302267",
+      "name": "Ramia, Dr. Elsy Farid",
+      "keywords": "Anticoagulation, Discharge counseling, Transitions of care, Readmissions, Bleeding, Health care, Medical research, Risk factors, Medication reconciliation, Medication errors, Orthopedic surgery, Pharmacy services, \r\nAcademic performance, Critical thinking, Educational outcome, Major, Pharmacy education, Undergraduate, Clinical pharmacist, \r\nCompetency framework, Hospital pharmacist, Specialized competency, Tool validation, Health literacy, Antibiotics, Quality of life, Health outcomes",
+      "keywordLength": 489,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200302941",
+      "name": "Abu Khzam, Dr. Faisal Nabih",
+      "keywords": " graph modification, cluster editing, vertex splitting, NP-hardness, parameterized algorithms, kernelization\r\n\r\ncluster editing, 2-club cluster edge deletion, 2-club, cluster vertex splitting, vertex splitting, parameterized complexity\r\n\r\nbiclustering, bicluster editing, vertex splitting\r\n\r\nenumeration problems, connected domination, degenerate graphs, s-club cluster vertex deletion, dominating set, efficient dominating set, independent dominating set, connected dominating set, Roman domination, exponential time hypothesis, fixed parameter sub-exponential (FPSUB)\r\n\r\ncorrelation clustering, cluster editing, club-cluster deletion, vertex splitting, clustering, parameterized complexity, graph algorithms, NP-hard problems, heuristics, data-to-graph encoding, oil spills, coastal contamination\r\n\r\nfeature selection, correlations graph, weighted independent dominating set, classification, diversity\r\n\r\nlarge language models, multi-agent, user-agent, cluster editing, model complexity, graph theory, classification, generative AI\r\n\r\nAI, machine learning, Vapnik-Chervonenkis dimension, learnability, correlation graph, graphical algorithms, complexity, heuristics, parameterized complexity, integer programming, satisfiability, SAT solvers\r\n\r\nRoman domination, extension problems, enumeration, polynomial delay\r\n\r\ninfluence propagation, diffusion models, influence maximization, d-packing\r\n\r\ngraph compression, graph embedding, fuzzy logic, fastmap, dimensionality reduction\r\n\r\ndominating set, vector domination, bounded-degree vertex deletion, parameterized complexity, kernelization\r\n\r\nstatistical feature selection, model complexity, bias-variance tradeoff, graph theory, combinatorial features, maximal independent sets, minimal dominating sets, independent dominating set, combinatorial algorithms, heuristics, classical vs. combinatorial features, combinatorial feature ranking\r\n\r\ndata privacy, network data security, anonymization, degree-based anonymization\r\n\r\ngraph embedding, node2vec, encode-decoder, sampling, data compression, vertex cover, cluster editing\r\n\r\ndeep learning, vertex cover, graph minor theorem\r\n\r\ntransliteration, deep learning, convolution networks\r\n\r\nanomaly detection, correlation clustering, cluster editing, social media analysis\r\n",
+      "keywordLength": 2268,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "200400044",
+      "name": "Geitani, Mr. Bassam Badaoui",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201000400",
+      "name": "Aour, Dr. Nadine Antoun Nadine, Zeeni",
+      "keywords": "Body image dissatisfaction, Physical activity, Social media, Young adults\r\n\r\nGender identity, Age groups, Surveys, Finance, Pandemics, COVID-19, Culture, National security\r\n\r\nNature exposure scale, Connectedness to nature scale, Measurement invariance, Cross-cultural, Multi-group confirmatory factor analysis (MG-CFA)\r\n\r\nSocial media, Mood, Junk food, Cravings, Body image dissatisfaction\r\n\r\nSelf-Compassion Scale, Short Form, Measurement invariance, Cross-cultural, Multi-group confirmatory factor analysis (MG-CFA)\r\n\r\nBody appreciation, Body appreciation Scale-2 (BAS-2), Measurement invariance, Cross-cultural, Multi-group confirmatory factor analysis (MG-CFA), Psychometrics, Structural analysis\r\n\r\nDisordered eating behaviors, Body image disturbance, Sexual minorities, Gender identity, Sexual orientation\r\n\r\nIntuitive eating, Self-compassion, Perceived stress, Eating behaviour, Randomised controlled trial\r\n\r\nSocial media, Pregnancy, Body image, Eating behavior, Healthy eating\r\n\r\nSucrose solution, Intermittent access, Chronic variable stress, Binge drinking, Energy balance\r\n\r\nVitamin D, Diabetic neuropathy, Diabetes, Insulin resistance, Nutrition\r\n\r\nRisk factors, Human diseases, Risk, Women, Risk assessment, Public health, Aggressive behaviour, Adults, Appetite disorders, Cross-sectional studies, Feeding behaviour, Exposure, Surveys, Sexual abuse, Behaviour\r\n\r\nWorld Food Programme, Summer camps, Nutrition knowledge, Life skills, Social cohesion\r\n\r\nHerbal medicines, Physicians’ awareness, Allopathic medicines",
+      "keywordLength": 1527,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201001437",
+      "name": "Chamelian, Dr. Rania Nabil Rania, El Haddad",
+      "keywords": "Marketing planning, SaaS, Internationalization, Technology, SME ",
+      "keywordLength": 64,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201001858",
+      "name": "Haddad, Dr. Marc George",
+      "keywords": "Energy consumption, Urban areas, Batteries, Meteorology Life Cycle Assessment, Battery Size, Energy Consumption, Operating Conditions, Real-world Conditions, High Cost, Reduction In The Number, Extreme Conditions, Extreme Weather, State Of Charge, Average Speed, Heat Source, Electrical Energy, Traffic Congestion, Daily Energy, Investment Costs, Baseline Scenario, Extreme Cold, Energy Capacity, Large Battery, Technical Recommendations, Daily Energy Expenditure, Battery State Of Charge, Varying Operating Conditions, Electrical Energy Consumption, Worst-case Scenario, Bus Lines, Transient State, Extreme Weather Conditions.\r\nBattery electric bus; Charging infrastructures; Total cost of ownership; Operations; Schedule delays; Accelerated real-time simulation.\r\nreal driving conditions; alternative fuels; transit buses; energy consumption; greenhouse gases; pollutant emissions; developing countries .                                                                                                                                                                                                                                                                                                                                                                                                                                                                           .Power demand, Power industry, Batteries, Load modeling, Electric Buses, Charging Infrastructure, Charging Load, Bus Fleet, Battery Electric Buses, Maximum Power, Power Grid, Power Demand, Energy Model, Maximum Demand, Battery Size, Charging Method, Impact Of Infrastructure, High Power, Greenhouse Gas, Time Of Day, Factor Loadings, State Of Charge, Electrical Energy, Peak Power, Charging Demand, Peak Demand, Average Demand, Passenger Flow, Annual Demand, Electric Flow, Total Demand, Varying Weather Conditions, Bus Lines, Cumulative Power\r\n",
+      "keywordLength": 1910,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201002223",
+      "name": "Hassouna, Ms. Tamara Ahmad",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201002308",
+      "name": "Fares, Dr. Julian Maurice",
+      "keywords": "influence strategies, social networks, stakeholder influence, structural approach, systematic literature review\r\n\r\nbibliometrics, biomedical research, cooperative behavior, databases\r\n\r\nbibliographic, humans, interprofessional relations, social networking, stakeholder participation\r\n\r\ncancer care, centrality, network structure, secondary data, social networks, social support\r\n\r\ncapabilities, crisis, entrepreneurship, hierarchical capability, resilience",
+      "keywordLength": 456,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201004079",
+      "name": "Elgammal, Dr. Walid Mohamed Rashid",
+      "keywords": "Female CEOs; Ethical firms; ESG; Corporate impact; Corporate governance; Gender diversity; Corporate social responsibility; Ethical leadership; Sustainability; Corporate ethics\r\n\r\nGreen finance; Digital transformation; Sustainable development; Carbon emissions; Digital technology readiness; Digital technology exploration; OECD economies",
+      "keywordLength": 338,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201005211",
+      "name": "Nicolas, Dr. Rana Khairallah",
+      "keywords": "Plasmonic Photothermal Therapy (PPTT), Cancer Treatment, Nanoparticles (NPs), Resonance Wavelength, Thermal Conductivity, Refractive Index, Tissue-Specific Properties, Numerical Modeling, Hyperthermia, Personalized Therapy\r\n\r\nGudermannian neural network, Nonlinear economic and environmental system, Global search technique, Local search method, Reference solutions\r\n\r\nHigh-Harmonic Generation (HHG), Cr-Doped MgO Crystals, Nonlinear Optics, Ultrafast Laser, Attosecond Science\r\n\r\nENZ Nanoparticles, Fluorescence Inhibition, Radiative Processes, Non-Radiative Processes, Quantum Emitter, Emission Decay, Optical Quantum Memories\r\n\r\nPlasmonic Origami, Gold Nanofilm, Optical Properties, Tunable Absorption, Surface Plasmon Resonance, Metasurfaces, Photonic Applications\r\n\r\nPlasmonics, Third Harmonic Generation, Metal-Dielectric Resonators, Plasmon Amplification\r\n\r\nElectronic band structure, Crystalline solids, Harmonic analysis, Atomic spectral lines, Spectral phenomena and properties, Nonlinear optical processes, Z-scan technique\r\n\r\nENZ Nanoparticles, Fluorescence Decay, Radiative Processes, Non-Radiative Processes\r\n\r\nPhysics - Optics\r\n\r\nSpatial Coherence, X-ray Sources, Single-Shot Measurement",
+      "keywordLength": 1202,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201005298",
+      "name": "Kanbar, Dr. Roy Nabil",
+      "keywords": "Entrustable professional activities, Objective structured clinical examinations, Pharmacy education, Competency assessment, Simulation, Quality education\r\n\r\nPharmacy students, Career paths\r\n\r\nCareer opportunities; Curriculum; Personal and professional development\r\n\r\nEducation; Nutrition; Pharmacy\r\n\r\nPharmacy, Practice experience, Pharmaceutical industry",
+      "keywordLength": 355,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201005310",
+      "name": "Harb, Dr. George Bassem",
+      "keywords": "manufacturing sector; TFP; productivity; augmented mean group estimator; common factor; stochastic convergence\r\n\r\ntourism economics, regional tourism, regional economics, systematic literature review, PRISMA\r\n\r\nNUTS regions, regional TFP, club-convergence, Cohesion Policy\r\n\r\nDomestic tourism, foreign tourism, TFP, European regions, tourism specialisation\r\n\r\nAid for trade, trade, institutions, extensive/intensive margin, institutional distance, gravity model\r\n\r\nregional economic growth, Solow model, tourism led growth, common factor model, macro panel estimators\r\n\r\nmanufacturing sector; TFP; productivity; augmented mean group estimator; common factor",
+      "keywordLength": 657,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201005540",
+      "name": "Rahme, Ms. Christina Samir",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201100322",
+      "name": "Tawk, Dr. Charbel Youssef",
+      "keywords": "Additive manufacturing, soft actuators, soft pneumatics, soft robotics, soft sensors, 3D printing, three-dimensional displays, medical devices, proportional control, switches\r\n\r\nSoft robotics, sensors, pattern recognition, hand gestures, soft prosthetic hand, sensor locations, neutral position, robotic hand, monolithic structure, tensile actuator, current position, index finger, middle finger, 3D printing technology, good compliance, human hand, acrylonitrile butadiene styrene, little finger, proximal phalanx, flexible hinge, mechanical compliance, finger joints\r\n\r\nSoft actuators, finite element modeling, 3D printing, pneumatic actuators, design, modeling, sensing, grasping, modular robot, soft gripper, metamaterial, thumb, bending, direct transition, upper limb, electrical engineering, Arduino, hand position, bending angle, position tracking, seamless transition, biological counterparts, phalange, touch sensor, servo motor, thermoplastic polyurethane\r\n\r\nSoft robotics, prosthetic hand, soft sensors, finger position tracking, direct gesture transition, preshaping, multi-stage grasps, artificial limbs, hand strength\r\n\r\nSoft gripper, monolithic, compliant actuator, 3D printing, variable stiffness, pneumatic control, bellows, service robots, trajectory tracking, industrial applications, atmospheric pressure, positive pressure, negative pressure, pressure regulation, application tasks, polylactic acid, safety management, robotic system, exoskeleton, robotic arm, compressed air, force sensor, shape memory, elastic component, grip force, shape memory polymers, fused deposition modeling, magnetorheological\r\n\r\nSoft robotics, wearable robotics, soft haptics, soft sensing, 3D printing, biofeedback, bio-mimetics, human–computer interface, haptics, tactile feedback, proprioception\r\n\r\nElectromyography, feature extraction, scattering transform, support vector machine, walking gait analysis, legged locomotion, muscles, lower limb, signal processing, characteristic signals, classification of conditions, uneven terrain, backward walking, learning algorithms, classification accuracy, scatter plot, knee joint, sEMG signals, surface electromyography, radial basis function kernel, wavelet transform, gait cycle, raw electromyography signals, continuous wavelet transform\r\n\r\nSoft robots, sensing and control, robot grasping, deformation, robot sensing systems, fabrication electrodes, artificial intelligence, human-machine systems, wearable sensors, learning algorithms, gestures, muscle activity, control signal, wearable devices, mechanical deformation, response information, robot manipulator, hand gestures, pilosity, negligible hysteresis, upper limb, Python script, universal testing, machine learning classifiers, supplementary movie, usage intention, gesture recognition, inertial measurement unit, input force, thermoplastic polyurethane, hand gesture recognition, comfortable experience, safe interaction, prosthetic limb, external disturbances\r\n\r\nArtificial intelligence (AI), force myography, gesture recognition, human–machine interface, soft robotics, wearable sensors\r\n\r\nAdditive manufacturing, acrylonitrile butadiene styrene, acetone treatment, copper oxide coating, fused deposition modelling, 3D printing, three-dimensional displays, deformation, shape, service robots, force, bending, soft robotics, 3D printing, local joint, local bending, soft gripper, joint bending, low pressure, soft materials, finite element model, simple control\r\n\r\nSoft robots, thermoplastic polyurethane, soft actuators, pneumatic actuators, force deformation, input pressure, open-source 3D, stretchable materials, single step, thin plate, bending angle, finger length, fused deposition modeling, shape memory, single finger, 3D printing technology, bending behavior, precision scale, hyperelastic model, composite structures, continuous and discontinuous fibre-reinforcement, fibre-reinforced polymers\r\n\r\nSoft robotics, 3D and 4D printing, cerebro-vascular flow dynamics, computational fluid dynamics, patient-specific simulations, aneurysm hemodynamics, non-newtonian flow dynamics",
+      "keywordLength": 4097,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201100701",
+      "name": "Shayya, Mr. Ehab Ziad",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201101565",
+      "name": "Yazbeck, Dr. Maha Issam",
+      "keywords": "ADHD, EEG, EEG connectivity, coherence, Brodmann area\r\n\r\nNuclear, piezoelectric, resonator, SAW, sensor\r\n\r\nStatistical quality improvement of simulations, forward-inverse functions, parameter estimation, semi-physics models of corrosion, invertibility index, Monte Carlo simulations, parametric bootstrap, hypothesis testing\r\n\r\nBrain connectivity analysis, image analysis, image generation, variational auto-encoders\r\n\r\nSurface acoustic waves, reactor irradiation, aluminum nitride, lithium niobate, radiation damage, in-pile irradiation, reactor sensors\r\n\r\nADHD, electroencephalograph, brain connectivity, machine learning, CTPRS\r\n\r\nAssociation football, game tactics, gender differences, performance analysis, shooting",
+      "keywordLength": 720,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201103234",
+      "name": "Khaled, Dr. Karim Jamal",
+      "keywords": "sugar; prostate cancer; men; sugar-sweetened beverages; systematic review; added sugar; malignancy; cancer risk; risk factors; epidemiologic studies\r\n\r\nmental health questionnaires; desk-based research; ethical concerns; ethical challenges; ethical issues; public health nutrition; epidemiological research; ethics; nutrition; depression; depression scale\r\n\r\ndepression; depression scale; desk-based research; epidemiological research; ethical challenges; ethical concerns; ethical issues; ethics; mental health questionnaires; nutrition; public health nutrition\r\n\r\npsychological stress; stress; diet quality; dietary patterns; women; females; childbearing age; reproductive age; structural equation modelling\r\n\r\nDiet, Dietary patterns, Inflammation, Chronic Low-Grade Inflammation, Inflammatory markers, Mediterranean diet, Dietary Approaches to Stop Hypertension, Plant-based diet, non-communicable diseases\r\n\r\nPsychological Stress; Diet Quality; Dietary Patterns; Women; Childbearing Age; Reproductive Age; Childbearing Aged Women, Posteriori\r\n\r\nperceived stress; psychological; stress; diet quality; dietary patterns; women; reproductive age; childbearing age; a-priori; a-posteriori\r\n\r\nAge; Reproductive Age; Perceived Stress; Integrated thesis",
+      "keywordLength": 1249,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201103968",
+      "name": "Jannoun, Ms. Noura Khaled",
+      "keywords": "Early mobilisation, intensive care, feasibility, healthcare providers, perceptions.",
+      "keywordLength": 83,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201104930",
+      "name": "El Khatib, Dr. Nader Nabil",
+      "keywords": "Atherosclerosis, Mathematical modeling, Partial differential equations, Traveling waves\r\n\r\nHamilton-Jacobi equations, Microscopic model on junction, Non-local operators, Pedestrians, Slepčev formulation, Specified homogenization, Viscosity solutions\r\n\r\nAtherosclerosis, Mathematical modeling, Partial differential equations, Traveling waves\r\n\r\nAtherosclerosis, Mathematical modeling, Partial differential equations, Permeability, Traveling wave\r\n\r\nHamilton-Jacobi equation, Strong comparison principle, Traffic model, Viscosity solutions\r\n\r\nAtherosclerosis, Blood flow, Fluid-structure interaction, MRI imaging\r\n\r\nAccelerated Frenkel-Kontorova model, Fully non-linear framework, Monostable non-linearity, Traveling waves, Viscosity solutions\r\n\r\nAtherosclerosis, Chemotaxis, Fatty Streaks, Mathematical modeling, Reaction–Diffusion Equations\r\n\r\nInflammation, Mechanisms of inflammation propagation, Reaction–diffusion equations, Regimes of inflammation, Wave speed\r\n\r\nDiscontinuous Hamilton-Jacobi on a moving in time domain, Regularizing effects, Viscosity solutions\r\n\r\nAtherosclerosis, Inflammation, Reaction-diffusion equations, Wave existence\r\n\r\n35K57, 35Q92, 35R35, Atherosclerosis, Free boundary problem, Mathematical modeling, Reaction–diffusion equations\r\n\r\nCytokine storm, Inflammation, Inflammation propagation, Reaction–diffusion equations, Wave speed\r\n\r\nHamilton–Jacobi equation, Semi-discrete shocks, Strong comparison principle, Traffic model, Viscosity solution\r\n\r\nAllen-Cahn/Cahn-Hilliard equations, Convergence to equilibrium, Error estimates, Finite element method, Heat equation, Maxwell-Cattaneo law, Periodic boundary conditions",
+      "keywordLength": 1648,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201104933",
+      "name": "Sleiman, Mr. Ward Hazem",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201105198",
+      "name": "Fakih, Dr. Ali Ahmad Ali, Fakih",
+      "keywords": "Education; MENA; Youth; Gender; Urban-rural; Private tutoring; Household; Policy\r\n\r\nEther price; Demand; Speculation; Ethereum network utilization; Gas price; Bitcoin price; SVAR model; Cryptocurrency market\r\n\r\nArab region; Gender wage gap; Equal pay; Discrimination; Occupational segregation; Education; Work experience; Policy recommendations; Wage transparency; Women's economic empowerment\r\n\r\nFemale employment; Job creation; Lebanon; Gender-responsive policies; Economic empowerment\r\n\r\nCOVID-19; Mortality rate; Institutions; Economic growth; Health quality; Education; Elderly population; Cross-country study\r\n\r\nE24; J78; J82; Arab Spring; Governance quality; Female unemployment; MENA region\r\n\r\nDermoscopy training; Artificial intelligence; General practitioners; Residents; Skin cancer detection\r\n\r\nLegal residency; Work; Demographic factors; Identity documentation; Probit\r\n\r\nVoting behaviour; Youth; Arab Spring; Institutional change; MENA region\r\n\r\nDermoscopy; Melanocytic skin tumours; LC-OCT; Melanoma detection; 3D imaging\r\n\r\nArmed conflicts; Assets; Food security; Household surveys; Impact assessment; Livelihoods; Market access; Migration; Resilience; Shock; Sudan\r\n\r\nHappiness; Determinants; Youth; Arab region; Probit model\r\n\r\nOverqualification; Wage penalty; Matching techniques; Egypt\r\n\r\nWheat prices; Economic uncertainty; Twitter Economic Uncertainty Index; Crude oil; Natural gas; SVARX model; Time series analysis; Commodity markets\r\n\r\nEmployment; Disability; Lebanon\r\n\r\nPsoriasis; Physical impact; Mental health; Sex differences; Systemic treatment; Quality of life; DLQI; SF-12; Observational cohort\r\n\r\nDermatoscopy ×400; Pigmented genital tumors; Non-specialists; Artificial intelligence; Image analysis; Screening tool\r\n\r\nLentigo maligna; Melanoma; Spaghetti technique; Confocal microscopy; Surgical margins; Long-term follow-up\r\n\r\nConfocal microscopy; LC-OCT; Ex vivo imaging; Pigmented tumors; Dermatology; 2D vs 3D imaging; Skin cancer; Nevi; Melanoma; Seborrheic keratosis; Lentigo maligna; Optical imaging techniques\r\n\r\nCOVID-19; Canada; Children; Mental health; Order logit model\r\n\r\nCOVID-19; Lockdowns; Firms; Workers; Jordan; Morocco; Employment; Job loss; Wage cuts; Propensity score matching; Sectoral analysis; Business impact; Policy implications\r\n\r\nEconomic volatility; Financial deepening; Sub-Saharan Africa; Panel cointegration; Cross-sectional heterogeneity; Structural breaks; Economic growth; Financial development; Time series analysis; Emerging markets\r\n\r\n3D reconstruction; Single-view; Planar polygonal curves; Curve modeling; Computer graphics; Trajectory modeling; Geometric algorithms; Tangent computation; Osculating circles; Curve curvature\r\n\r\nFinancial development; Business cycle volatility; UAE; Regime-shift; Asymmetric tests; NARDL model; Cointegration; Economic policy; Financial deepening; Emerging markets\r\n\r\nWomen nepotism; Skill mismatch; Job satisfaction; Social costs; MENA countries\r\n\r\nRemote work; Firm performance; COVID-19; Jordan; Morocco; Productivity; Propensity score matching; Cross-country analysis\r\n\r\nInternational research collaboration; Publication citations; Lebanon\r\n\r\nArab Spring; Emigration; Unhappiness; Attitude\r\n\r\nCOVID-19; Food Security; Propensity Score Matching; MENA Region\r\n\r\nCOVID-19; Mental health; Children; Order logit model; Canada\r\n\r\nEuler spiral; 3D reconstruction; Piecewise reconstruction\r\n\r\nBusiness continuity; Business response; Government intervention; Remote working; COVID-19; Jordan; Morocco\r\n\r\nResearch outcomes; Academic promotion; Lebanon\r\n\r\nEmpirical Likelihood; Stochastic Dominance Test; Ordinal Variables; Survey Nonresponse\r\n\r\nCOVID-19 Fatality; Female; Education; Institutions; Health\r\n\r\nResearch productivity; Publications; Lebanon\r\n\r\nLegal form; Firm performance; MENA region\r\n\r\nGender Gap; Inequality; Political Participation; MENA region\r\n\r\nVoting behaviour; Youth; Arab Spring; Institutional change; MENA region\r\n\r\nConsumer behavior; COVID-19 pandemic; City dwellers; Consumption (Economics)\r\n\r\nPrivate tutoring; Shadow education; Youth; MENA region; Probit model\r\n\r\nAsymmetry; COVID-19; Consumer sentiment; Consumer spending; VAR; Volatility\r\n\r\nSyrian refugee crisis; Lebanon; Economic impact; Poverty; Infrastructure; Housing; Livelihoods; Policy responses; Governance crisis; Public services; International aid; Lebanese economy; Refugee-hosting countries; Data gaps; Economic solutions; Policy recommendations; Refugee integration; Social cohesion\r\n\r\nEnvironmental quality; Youth; MENA region; Environmental awareness; Gender differences; Economic factors; Identity factors; Public goods; Policy implications\r\n\r\nInstitutions; Arab Spring; Economic performance; Middle East and North Africa; Egyptian youth; Sociopolitical conditions\r\n\r\nArab Spring; Participation; Protesting; Probit model\r\n\r\nFamily-Friendly Work Practices Provision; Childcare; Parental Leave; Private Sector; Lebanon\r\n\r\nArmed Conflicts; Ethnic Conflicts; Ethnic Groups; Power-Sharing; Syria",
+      "keywordLength": 4986,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201105273",
+      "name": "Issa, Dr. Leila Najib",
+      "keywords": "Uncertainty Quantification, Bayesian Inference, Source Reconstruction, Stochastic Flow Field, Moving Sources, Marine Pollution, Mediterranean Sea\r\n\r\nEastern Mediterranean, Surface Circulation, Mesoscale Structures, Machine Learning, Neural Network Clustering, Altimetry, Levantine Sea, Mid-Mediterranean Jet\r\n\r\nAirways Geometry, Bronchial Tree, Gas Transport, Oxygen–Carbon Dioxide Exchange, Alveoli, Pulmonary Capillaries, Respiratory Modeling\r\n\r\nRed Sea, Weather, Climate, Marine Environment, Forecasting, Sustainability\r\n\r\nReduced-Order Model, Microchannels, Unsteady Flows, Variable Cross-Section, Pressure-Driven Flow, Asymptotic Expansion, Fourier Transform, Hybrid Analytic-Numerical Scheme, Low Aspect Ratio, Computational Fluid Dynamics (CFD)\r\n\r\nAltimetry, Lagrangian Data, Data Assimilation, Drifters, Surface Velocity Field, Levantine Mediterranean\r\n\r\nRed Sea, Coupled Modeling System, Data Assimilation, Ocean Circulation, Weather and Climate Prediction, Marine Applications, Ecosystem Modeling, Wave Modeling, Probabilistic Transport, Renewable Energy",
+      "keywordLength": 1064,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201105274",
+      "name": "Tannir, Dr. Dani Abdallah",
+      "keywords": "Mathematical model, integrated circuit modeling, memristors, solid modeling, computational modeling, analytical models, numerical models, memristor model, modified nodal analysis, theoretical framework, accuracy of model, high-pass filter, interesting model, design of components, circuit elements, formulation techniques, simulation results, nonlinear model, state variables, sparsity, matrix size, hysteresis loop, Newton method, characteristic equation, nonzero entries, incidence matrix, compact model, test circuit, number of nonzero entries, memristive devices\r\n\r\nCircuit element stamp, memristors, modeling, modified nodal analysis (MNA), simulation of mem-devices, accuracy, computational modeling, simulation, memristors, voltage, harmonic analysis, steady-state, integrated circuit modeling, transient analysis, power harmonic filters, harmonic balance, balance simulation, harmonic balance simulation, nonlinear model, semiconductor industry, neuromorphic computing, steady-state simulations, electronic design automation\r\n\r\nDifferential equations, time domain, system of equations, numerical examples, Newton method, Jacobian matrix, Fourier series, algebraic equations, unknown variables, complex circuits, circuit elements, steady-state solution, arbitrary topology, nonlinear circuit, transient simulation, differential-algebraic equations, system of algebraic equations, circuit simulation, nonlinear element, nonlinear algebraic equations, frequency domain, nonlinear function",
+      "keywordLength": 1493,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201304605",
+      "name": "El Masri, Dr. Mira Hassan",
+      "keywords": "antimicrobial stewardship (AMS), carbapenem, clinical pharmacy services, infectious diseases, Lebanon, Middle East",
+      "keywordLength": 114,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201304845",
+      "name": "Karaki, Dr. Mohamad Badih",
+      "keywords": "Lebanon, Flour, Prices, Petroleum sales & prices, Impulse response, Gas prices, Gasoline\r\n\r\nDefense news; Investment; Local projection\r\n\r\nUncertainty shocks; Confidence channel; Transmission; Business cycles; FAVAR\r\n\r\nOil prices; Gasoline prices; Food prices; Bayesian SVAR\r\n\r\nLower oil prices, Lebanese economy, Oil price fluctuations, Macroeconomic variables, Deflation, GDP, Oil and gas sector, Resource curse, Dutch disease, Economic development",
+      "keywordLength": 449,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201305862",
+      "name": "Kchouri, Dr. Bilal Sami",
+      "keywords": "ESG, Female CEOs, Accounting transparency, Corporate risk-taking, Firm performance\r\n\r\nGreen innovation, Green taxes, Green finance, SDGs, Climate finance, Carbon emissions\r\n\r\nGreen finance; Education; Digital transformation; ICT; OECD; R\\&D\r\n\r\nRenewable energy impact; Stock market volatility; Energy sector transition; Financial crisis influence; Risk management; Economic turbulence\r\n\r\nCOP28; Financial inclusion; Technological advancement; Carbon emissions; E-7 countries\r\n\r\nNatural resources; Economic performance; Total debt servicing; Poor economies; FMOLS\r\n\r\nClimate policy uncertainty; Energy prices; Carbon emission trading price; Green bond index; Spillover\r\n\r\nIslamic finance, Islamic banks, Conventional banks, Global financial crisis, Resilience, Cost efficiency, Financial services, European markets, Interest-free banking, Ethical finance\r\n\r\nSukuk; Blockchain; Ethereum; Tokenization; Smart contract; Cost-benefit analysis\r\n\r\nFlight-to-safety, COVID-19 crisis, Gold market, Oil market, Stock market, VIX, GVZ, OVX, Market volatility, Safe-haven assets, Granger causality, Economic uncertainty",
+      "keywordLength": 1107,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201306205",
+      "name": "Mattar, Dr. Lama Elias",
+      "keywords": "anorexia nervosa; anxiety; depression; malnutrition; obsessive‐compulsive; thyroid hormone levels\r\n\r\nAthletes; DESA-6; Disordered eating patterns; EAT-26; Eating disorders; Lebanon\r\n\r\nchild malnutrition; coping mechanisms; food insecurity; maternal depression; mental health\r\n\r\nMAFLD, knowledge, attitudes, questionnaire validation, university students, young adults, Middle East, exploratory factor analysis, Cronbach’s alpha\r\n\r\nMyokines, myostatin, follistatin, vegetarian, pediatric malnutrition, STRONG KIDS, PYMS, autism, oxidative stress, FLY-Kids\r\n\r\nHemodialysis, FFM, LMM, ASM, ASMI, handgrip, performance, mortality, CBTi, insomnia, diet, Gnetum, isorhapontigenin, anti-inflammatory, antioxidant, anorexia, neuroinflammation\r\n\r\nnutrition interventions, physical activity, adults, general population, lifestyle behaviors, cardiometabolic risk, evidence-based, interprofessional collaboration, public health, behavior counseling\r\n\r\nMAFLD, metabolic dysfunction, fatty liver, university students, Lebanon, knowledge, attitudes, lifestyle, physical activity, diet\r\n\r\nanorexia nervosa, endophenotype, nutritional status, body composition, cognitive flexibility\r\n\r\nAnorexia nervosa, Renal damage, Renal function, Kidney functionality tests, Body mass index\r\n\r\nanorexia nervosa, citrulline, stroke volume, cardiac function, hemodynamic\r\n\r\nBody image dissatisfaction; Cravings; Junk food; Mood; Social media\r\n\r\nbifactor analysis; evaluation; exercise dependence; problematic physical activity\r\n\r\nnutrition education, training, performance, sports nutrition, marathon runners, nutritional awareness\r\n\r\nCOVID-19; health behaviours; mental health; multimorbidity; social restrictions\r\n\r\nmalnutrition, muscle loss, hospitalized patients, fat-free muscle index, handgrip strength, NFPE, sex differences\r\n\r\nLGBTQ, body image, disordered eating, eating disorders, anxiety, social support, harassment, discrimination, mental health\r\n\r\nPhysical activity, COVID-19, parenteral nutrition, CRBSI, body image, eating disorders, LGBTQ, food insecurity, maternal health, malnutrition, stroke, enteral nutrition\r\n\r\nMalnutrition, anorexia, GLIM, BMI, muscle mass, food insecurity, hospitalization\r\n\r\nCOVID-19; Developing countries; Food waste\r\n\r\nNutrition; Physical activity; Evidence-based practice; Adults; Lifestyle behaviors\r\n\r\nsexual orientation; Body image disturbance; Disordered eating behaviors; Gender identity; Sexual minorities\r\n\r\nCOVID-19, Multimorbidity, Mental health, Health behaviours\r\n\r\nFood parcel, Food security, Nutrition guidelines, Economic crisis, COVID-19, Lebanon\r\n\r\nConfinement; mental health; health behaviours; multimorbidity; COVID-19; longitudinal study; lifestyle changes\r\n\r\nLiving grief, Burden, Caregiving, Parents, Anorexia nervosa, Gender role\r\n\r\nBody image; pregnant women; food habits; social media; young adults; media literacy\r\n\r\nChildhood obesity; Health promotion; Leisure; Physical activity advocacy; Recreation; Sports\r\n\r\nAnorexia nervosa; hospitalization; psychiatric care; France; multidisciplinary care; weight objectives; family involvement; nutritional goals; stabilization phase; EVHAN study\r\n\r\nMalnutrition care practice; Malnutrition knowledge\r\n\r\nmalnutrition; nutrition assessment; reliability; validity\r\n\r\nFood literacy; food insecurity; college students; Lebanon; eating behaviors; nutrition education; EFLBQ; FAO FIES; cross-sectional study\r\n\r\nMalnutrition; AND/ASPEN; GLIM; ESPEN; hospital patients; risk factors; BMI; Charlson Comorbidity Index; pressure ulcers; gender; age; prospective observational study\r\n\r\nViolence against women; adult women; disordered eating behaviors; eating disorders; Lebanon; cross-sectional study; physical violence; sexual violence; external eating\r\n\r\nprimary prevention, nutrition, physical activity, nutritionists, counseling, systematic review, meta-analysis, randomized controlled trial\r\n\r\nCollege students; Food (in)security; Lebanon; Mental health; Well-being\r\n\r\nFood, Hygiene, Shopping, Lebanon, COVID-19\r\n\r\nanorexia nervosa; anxiety; body mass index; depression; nutritional status\r\n\r\nGLIM; malnutrition; muscle assessment; NFPE; FFMI; handgrip strength; diagnostic validity; nutritional screening; NRS-2002; MNA-FF\r\n\r\nLife skills; Nutrition knowledge; Social cohesion; Summer camps; World Food Programme\r\n\r\nAnorexia nervosa; BDNF and 5-HTT; Brain genes; COMT\r\n\r\nAdolescence; Anorexia nervosa; Global health; Outcome; Somatic and psychological problems\r\n\r\nCOVID-19; confinement; multimorbidity; mental health; psychological distress; depressive symptoms; stress; isolation; health behaviors; physical activity; sleep; diet; longitudinal study\r\n\r\nNUTRITIONAL status; ANXIETY; MENTAL depression; ANOREXIA nervosa; EATING disorders",
+      "keywordLength": 4708,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201306300",
+      "name": "Romanos, Dr. Jimmy Elia",
+      "keywords": "NBT-CT, X-ray Diffraction (XRD), Rietveld Refinement, Raman, environmental economics, SDG7, sustainability, water–energy nexus, water resources, water security, Piezoelectric, Lead-free ceramics, \r\nDielectric properties, Machine learning, Optimization, suspended sediment concentration; influence parameters; data-driven expert system; spatial probabilities; isolated points; SDG6",
+      "keywordLength": 380,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201306321",
+      "name": "Tekli, Dr. Joe Maroun",
+      "keywords": "Conversational dialogue systems, data semantics, knowledge base, knowledge integration, conversational data preprocessing\r\n\r\nNutrition health, assessment and recommendation, progress evaluation, recommendation adjustment, fuzzy logic agents, fuzzy reasoning\r\n\r\nDocument clustering, topical organization, keyword extraction, corpus statistics, distributional thesaurus, augmented TF-IDF\r\n\r\nImage enhancement, low-light conditions, deep learning, object classification, homomorphic filtering\r\n\r\nSimulator modelling, Unity 3D, virtual sensors, semantic sensor network, weather events\r\n\r\nConnected environments, sensor networks, Internet of Things (IoT), data redundancy, data cleaning\r\n\r\nPersonalized meal planning, nutrition health, adapted transportation problem, relevance scoring, parametric model\r\n\r\nImage retrieval, information retrieval, image clustering, search result organization, spatial arrangement\r\n\r\nSimulator modeling, knowledge graphs, Unity 3D, virtual sensors, semantic sensor network, weather events\r\n\r\nAutomatic text summarization, extractive summaries, word space model, feature representation, k-means clustering\r\n\r\nSemi-structured data, XML, semantic analysis, semantic disambiguation, keyword search, query processing\r\n\r\nText classification, document and text processing, feature engineering, supervised term weighting, inverse category frequency, TF-IDF, text representation\r\n\r\nVector graphics, SVG, semantic graph, semantic processing, RDF, incremental clustering, image annotation, visual features, image feature similarity\r\n\r\nConnected environments, fuzzy reasoning, data redundancy, data deduplication, Internet of Things (IoT), wireless sensor networks\r\n\r\nCyber-physical systems, wireless sensor networks, connected environments, fuzzy reasoning, data redundancy, data deduplication, Internet of Things (IoT)\r\n\r\nSuRF, DivExplorer, PRIM, subgroup discovery, data quality, data deduplication, entity resolution, entity matching, statistical modeling, machine learning, classification, neural networks, graph processing\r\n\r\nData analytics, monitoring software, software evolution, deep learning, wildfire prediction, environmental monitoring, time series analysis, climate change\r\n\r\nExplainable AI (XAI), bioinformatics, machine learning\r\n\r\nFederated learning, data heterogeneity, personalization in federated learning, privacy preserving, client clustering, model aggregation\r\n\r\nMachine learning, edge computing, high-performance computing, functional magnetic resonance imaging, lung cancer, infiltration, deep learning, Grad-CAM\r\n\r\nPseudo time series, telemedicine, healthcare\r\n\r\nNLP, sentiment analysis, negation detection, spine monitoring, data\r\n\r\nTransformer, law, NLP\r\n\r\nNetwork sciences, complex networks, brain networks\r\n\r\nGroup recommendations, diversity, frailty, elderly, knowledge models, hypergraphs, heterogeneous information networks, service recommendation\r\n\r\nRecommendation system, session-based, graph neural networks, SR-GNN, local vectors, global vectors, embeddings\r\n\r\nCollaborative business intelligence, framework, data mining, virtual assistance, software prototype, tourism\r\n\r\nAutomatic conceptual database design, multilingual tool, online translation service, TexToData\r\n\r\nIndustrial metaverse, SORDI, digital twin, synthetic data, digitalization, digital transformation, smart manufacturing, Industry 4.0, Industry 5.0, robot gym, artificial intelligence, machine learning, deep learning, computer vision, graphics rendering, immersive technologies, augmented reality, virtual reality, robotics, cyber-physical systems, Internet of Things, cloud computing, big data\r\n\r\nDigital twin, industrial metaverse, industrial age, information age, imagination age, Industry 4.0, industrial revolution, job transformation, digitalization, digital transformation, smart manufacturing, Industry 5.0, production process, design, manufacturing, multimedia data, industrial applications, computer-aided design, digital technologies, record keeping, cloud computing, synthetic data, 3D model, quality assurance\r\n\r\nAutonomous mobile robot, robot gym, Industry 4.0, cyber-physical system, virtual factory layout, robot awareness\r\nPath planning, generalization capability, simulation run, test scenarios, training environment, obstacle avoidance, different types of systems, fitness score, navigation algorithm, autonomous drone, environmental metrics, physics engine, robotic agents, tight spaces, evolutionary framework, autonomous driving robots, testing environment, simulation, generative adversarial network, evolutionary algorithm, machine learning algorithms\r\n\r\nNavigation, scalability, query processing, semantics, buildings, machine learning, information retrieval, unsupervised learning, indexing, hierarchical clustering, dendrogram, search string, text index\r\n\r\nMachine learning, search results, tree structure, information retrieval, structural index, impact of size, empirical evaluation, semantic context, index approach, unigram, tree index, indexing techniques, neural network, learning algorithms\r\n\r\nConvolutional neural network, search engine, traditional indicators, similar nodes, dataset size, bloom filter, hash function, mean average precision, row of table, left node, binary index\r\n\r\nSustainable development goals, text indexing, text querying, information retrieval, unsupervised learning, data clustering, dendrogram\r\nDigital images, image representation, low-level features, high-level features, synthetic images, computer vision, datasets, industrial images, computer-aided design, SORDI\r\n\r\nData visualization, data clustering, dendrogram, feature correlation, similarity computation, data granularity, data indexing, hierarchical clustering, incremental clustering, topical organization, thematic exploration, data zooming, synthetic data, 3D point clouds, data generation pipeline, procedural generation, computer vision, semantic segmentation, computational modeling, software algorithms, evolutionary computation, generative adversarial networks, control systems, software, robustness, software reliability, testing\r\n\r\nAutonomous robots, simulation environment, risk score, autonomic system, generative adversarial networks, unmanned aerial vehicles, control software, self-driving, autonomic control, collision, learning algorithms, simulation time, fitness function",
+      "keywordLength": 6335,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201306324",
+      "name": "Bandaly, Dr. Dia Costantin",
+      "keywords": "Apple growers, Blending, Consumers’ preferences, Flavour loss, Procurement model, Social sustainability",
+      "keywordLength": 103,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201306461",
+      "name": "Tayah, Ms. Carol Girgi Carol Hanna, Tayah",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201306469",
+      "name": "El Ammouri, Dr. Ali Hassan Ali, Ammouri",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201400035",
+      "name": "Abi Habib, Dr. Rudy Joseph",
+      "keywords": "eating disorder symptomatology, body dissatisfaction, attachment, media internalization, self-objectification\r\n\r\nawareness (118), COVID-19 (3178), digital health literacy (60), digital health (2522), disorder (21), empathy (44), health literacy (341), literacy (47), mental health literacy (16), mental health (2128), mentalizing (2), questionnaire (211), students (178)\r\n\r\nPTSD, depression, Beirut port explosion, mentalizing, resilience\r\n\r\ntrauma, post-traumatic stress disorder (PTSD), resilience, religious coping\r\n\r\nArabic, consultation, consultation and relational empathy, empathy, primary health care, validation\r\n\r\nprenatal attachment, COVID-19, stress, anxiety\r\n\r\nmaternal leave, work productivity, mother-infant bonding, parental competence, guilt, stress\r\n\r\nLebanon, telepsychotherapy, online consultations, COVID-19, mental health, e-mental health, implementation, telepsychology, digital interventions, online consultations\r\n\r\ntwin-twin transfusion syndrome, parental attachment, parental depression",
+      "keywordLength": 1013,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201400956",
+      "name": "Melhem, Dr. Cynthia Milad",
+      "keywords": "human capital, human capital management disclosure, board of directors, board\r\nexpertise, human resources, compensation committee.",
+      "keywordLength": 130,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201401210",
+      "name": "Fayad, Ms. Roula Mouin Roula, El Khoury",
+      "keywords": "Inclusive urban development, Social sustainability, Cultural heritage in housing, Affordable housing strategies, Climate-responsive design\r\n\r\nMud, Heritage preservation, Traditional architecture, Community engagement, Cultural heritage, Sensory experience, Saudi Arabia\r\n\r\nLong-term sustainability, Sustainable growth, Healthy living, Sustainable development, Building laws\r\n\r\nModular systems, Rigid modularity, Soft modularity, Shoreline, Public space, Beirut, Spatial practices\r\n\r\nEncounters, Engagement, Improvisation, Negotiation, Publicness, Social contract\r\n\r\nViewshed analysis, Visibility assessment, Corporate architecture, Neoliberal cityscape, David Harvey\r\n\r\nBeirut Port City, Beirut Central District, Solidere, Urban transformation, Narratives, Destruction and Re-construction\r\n\r\nSyrian children, Play areas, Urban space, Informal settlements, Displacement, Beirut, Spatial imagination\r\n\r\nAlternative public spaces, Neo-liberal city, Beirut, Urban engagement, Social contracts, Accessibility, Marginal urban sites",
+      "keywordLength": 1025,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201401211",
+      "name": "Thoumy, Dr. Mira Michel Mira, Thoumy",
+      "keywords": "Multiple team membership, Projectification, Productivity, Inductive approach, Engineering consulting firms\r\n\r\nLean thinking, Perceived adoption of lean principles, Lean production, Operational performance, Good manufacturing practices, Uncertainty, Pharmaceutical industry\r\n\r\nInternet banking, Mobile banking, Service quality\r\n\r\nProject success, Critical success factors, International development projects, IDPs, Educational projects, Lebanon\r\n\r\nLean, Lean construction management, LCM, Construction, Barriers, Implementation, Hinder, Success, Pitfalls",
+      "keywordLength": 553,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201402416",
+      "name": "Abi Gerges, Dr. Aniella Elie",
+      "keywords": "Chemical characterization, Diesel generators, Exhaust, Fume toxicity, Health impacts, In vitro assays\r\n\r\nAdult, Aged, Breast Neoplasms, COVID-19, Early Detection of Cancer, Female, Humans, LebaNon, Mammography, Mass Screening, Middle Aged, SARS-CoV-2\r\n\r\nApoptosis, Cytotoxicity, Exposure, Gasoline, GeNotoxicity, Static, Vapors\r\n\r\nAdult, Attitude of Health Personnel, Cross-Sectional Studies, Female, Humans, LebaNon, Male, Middle Aged, Physicians, Women, Sexism, Surveys and Questionnaires, Young Adult",
+      "keywordLength": 503,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201403159",
+      "name": "Frederix, Mr. Lee Richard",
+      "keywords": "Mapping, psychogeography, Beirut, uprising",
+      "keywordLength": 42,
+      "category": "short"
+    },
+    {
+      "faculty_id": "201403716",
+      "name": "Maalouf, Dr. Serge Raymond",
+      "keywords": "Nonlinear elasticity, Polynomial constitutive model, Elastic constants, Arbitrary material symmetry, Density functional theory, Black phosphorus\r\nAnisotropic elasticity, Triclinic 2D material, Extension-shear coupling, Coefficients of mutual influence, Mechanical properties, Rhenium disulfide",
+      "keywordLength": 293,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201404760",
+      "name": "Bachir, Mr. Elie Youssef",
+      "keywords": "Cryogenic, Machining, Titanium, Tool wear, Ultrasonic\r\n\r\nEDS, FEM, Forces, Machining, SEM, Surface, Titanium, Ultrasonic, Wear",
+      "keywordLength": 126,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201405649",
+      "name": "Moghraby, Mr. Jalal Fawzi",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "201406367",
+      "name": "Awad, Ms. Emmanuelle Moufid",
+      "keywords": "LebaNon, Maladaptive eating, Normative eating, Repetitive negative thinking, Rumination\r\n\r\nClimate anxiety, Eco grief, Eco guilt, LebaNon, Psychological distress\r\n\r\nArabic, Emotional and behavioral reaction to intrusions Questionnaire, Psychometric properties\r\n\r\nAdult, Diagnosis, Drug therapy, Erratum, Human, Male\r\n\r\nFuture anxiety, LebaNon, Psychological distress, Temperament\r\n\r\nDepression, Intuitive eating, Physical comparison, Self-esteem\r\n\r\nLebaNon, Loneliness, Orthorexia nervosa, Problematic social media use, Social media use disorder, Young adults\r\n\r\nBody appreciation, LebaNon, Mindful eating, Psychological distress\r\n\r\nCancer, Gender, LebaNon, Mental health, Orthorexia nervosa\r\n\r\nAffective temperaments, Cultural differences, Healthy orthorexia, Orthorexia nervosa, Personality",
+      "keywordLength": 792,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "201408170",
+      "name": "Sleiman, Dr. Sama Fawwak Sama, F. Sleiman",
+      "keywords": "exercise factors, beta-hydroxybutyrate, irisin, lactate, BDNF, stroke, osteocalcin, Animal model of depression, Chronic social defeat stress, Cognitive test, Depression,\r\nMorris water maze, Spontaneous alternation T-maze, BDNF, diet, exercise, neural plasticity, beta-hydroxybutyrate, irisin, lactate, osteocalcin, Exercise\r\nBeta-hydroxybutyrate, Aging, Learning, Memory, Autophagy, BDNF, α-Ketoglutarate\r\nAntidepressant, BDNF, Chronic social defeat stress, Exercise, Memory, PGC1a",
+      "keywordLength": 481,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202304172",
+      "name": "Baleanu, Dr. Dumitru Iancu",
+      "keywords": "Riemann-Liouville fractional difference; fixed point theorem; existence and uniqueness solution\r\nFractional differential equations; co-infection model; piecewise derivative; mABC operator; numerical technique; fractional derivatives\r\nNonlinear third-kind Volterra integral equations; Gauss–Lobatto quadrature; Four-block approach\r\nBurgers-Huxley equation; Finite difference formula; High-order method; Stability; Iterative method\r\nBi-univalent functions; Lucas polynomial; Fekete-Szegö inequality\r\nintegral inequalities; generalized convex functions; Katugampola fractional operators; Hermite-Hadamard inequality; symmetric function\r\nFuzzy numbers; Fuzzy neural networks; Incommensurate systems; Nabla fractional difference; Recurrent neural networks; Uncertainty analysis\r\nanalytical technique; fractional Cauchy reaction–diffusion equations; Kharrat–Toma transform; q-homotopy analysis method; Hilfer–Prabhakar fractional derivative; dynamical processes; physics; geology; biology; ecology\r\nNonlinear phenomena; Soliton solutions; Multicomponents fractional Gross-Pitaevskii system; Novel efficient techniques; Condensed matter physics; Fractional derivatives\r\nNabla Riemann-Liouville fractional difference; negative boundedness; monotonicity analysis\r\n\r\nTuberculosis disease; Caputo fractional derivative; Mittag-Leffler function; generalized Euler’s method\r\n\r\nCaputo fractional derivatives; Karsnosels’kil’s fixed point theorem; Arzelà–Ascoli theorem; Lyapunov function technique; trace-determinant approach\r\n\r\nExistence and uniqueness; fractal-fractional derivative; malaria-filariasis model; numerical scheme; Ulam–Hyers stability\r\n\r\nSUM integral transform; classical derivatives; transfer functions; pole analysis; fractional derivatives\r\n\r\nGNLS equation; bifurcation analysis; sensitivity analysis; Jacobi elliptic waves; bright solitons; dark solitons\r\n\r\nVariational problems; generalized invexity; Kuhn–Tucker type condition; fractional Euler–Lagrange equation; duality\r\n\r\nNonsingular kernel operators; singular kernel extensions; fractional calculus; modeling insights\r\n\r\nFractional derivatives; fractional isothermal chemical model; Jacobi collocation method; reliability\r\n\r\nHilfer fractional stochastic differential system; averaging principle; pantograph equations\r\n\r\nConformable derivative; Gegenbauer differential equation; ultraspherical polynomials\r\n\r\nExistence and Uniqueness Solution; Fractional Boundary Value Problems; Green’s Functions; \r\n\r\nvariable-order optimal control problems; operational collocation method; sixth-kind Chebyshev polynomials; convergence analysis\r\n\r\nTempered fractional Schrödinger equation; discrete Chebyshev polynomials; error analysis; stability\r\n\r\nBessel convergence; Bessel boundedness; Bessel statistical convergence; Bessel statistical Cauchy sequences\r\n\r\nPiecewise fractional derivatives; indefinite integral; variational problems; Chebyshev collocation\r\nFredholm-type integral equations; IIF; ĪIF; Mellin transform; Weyl fractional integral\r\nBuffer; calcium concentration; Hilfer fractional derivative; Laplace transform; Fourier transform\r\nCovid-19; Omicron variant; SER model; fractional derivative; existence and uniqueness; predictor–corrector method\r\nViral hepatitis B; COVID-19; stochastic model; extinction; ergodicity; real data\r\nHeat generation; MHD; nanofluid; porous medium; stretching sheet\r\nKdV equation; High relativistic; Thermal positrons; Ion acoustic; Soliton\r\nNonlinear dispersive model; Wave propagation; Soliton solutions; Direct solvers; Integrable systems\r\nSoliton solutions; Nonlinear Schrödinger equation; Modified Sardar sub-equation method; Optical fibers\r\nfuzzy number; r-cuts; uncertain numbers; Hukuhara difference; fractional nabla difference\r\nshifted Chebyshev polynomial; wave equation; generalized Caputo fractional derivative; irregular domain\r\nonvoluted fractional differentials; generalized Raina's function; applications\r\nNewton’s law of cooling; time delay; Ψ-Caputo fractional derivatives\r\ngeneralized KdV equation; lump-type solutions; complexiton solutions; soliton solutions\r\n  Mixed-Type Fractional-Order Non-Linear Functional Integral Equations; Banach Space; Solvability\r\nhighly non-linear fractional order reaction advection diffusion equation; cubic B-spline collocation method; numerical solution\r\nFractional evolution equation; Cauchy data; LpL^pLp spaces\r\nThermal transport; nanoparticles; fractional Oldroyd-B fluid; magnetic field; radiations; viscous dissipation; Entropy generation; finite element method\r\nRitz Approximation; Fractional Optimal Control Problems\r\nExistence; controllability; non-autonomous nonlinear evolution fractional integrodifferential equations; delay\r\nHIV-TB coinfection model; classical operator; Caputo piecewise operator; real data\r\nperturbed nonlinear Schrödinger equation; microtubules; generalized Kudryashov scheme; solitons\r\noptical solitons; cubic–quintic nonlinear Helmholtz model\r\nclassical optical solitons; nonlinear Schrödinger equation; resonant nonlinear light propagation; optical waveguides\r\nBäcklund transformation; complexiton; solitons; nonlinear evolutionary equation\r\nordinary differential equations; partial differential equations; variable fractional order; Bernstein operational matrix\r\ninverse problem; time fractional pseudo-parabolic equation; non-local in time conditions; regularization\r\nBreather solutions; lump-periodic wave solutions; nonlinear wave model; fluid mechanics\r\n\r\ncyclic contraction; best proximity point; variational inequality \r\nCaputo derivative; Caputo-Fabrizio derivative; Sumudu homotopy analysis method; fractional model of Fokker-Planck equations\r\n",
+      "keywordLength": 5635,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202305117",
+      "name": "Mahmoud Ahmed, Dr. Mohamed Ahmed Elmokhtar Mohamed, Elmokhtar",
+      "keywords": "acne vulgaris, inflammation, JAK inhibitors, JAK/STAT pathway, Janus kinases\r\n\r\nTreg, IL35, HCV, Cirrhosis, HCC\r\n\r\nHCV; prognostic marker; IL‐13; vit D; miRNA‐135a; HCC\r\n\r\nacute hepatitis E, diagnosis, fulminant hepatitis failure, ribavirin, Egypt\r\n\r\ndonepezil, glutamate receptor expression, neuroinflammation, neuroprotective, oxidative stress, type 2 diabetic rats\r\n\r\nHEV, Genotype 1, Acute infection, Semen, Sperm quality, Male infertility\r\n\r\nSMV/SOF, RASs, Fibrosis regression, HCV\r\n\r\nchromium nanoparticles; 5-Flourouracil; colorectal cancer; green biosynthesis\r\n\r\nMDR K. pneumoniae, quinolones resistance gene, PMQR\r\n\r\nAtrophic acne scars, fractional carbon dioxide laser, platelet-rich plasma, stem cell-conditioned medium\r\n\r\nPrimary immunodeficiency, chronic granulomatous disease, genetic disorders\r\n\r\nmultidrug-resistance; colistin resistance; mcr-1; enteroaggregative E. coli; ESBL; MBL\r\n\r\nJanus kinase, JAK3, vitiligo, signal transducer and activator of transcription, JAK inhibitors Invasive Fungal Infection, TLR2, TLR4, Acute Myeloid Leukemia\r\n\r\nCOVID-19, Anosmia, Mechanisms, Implications, Features, Diagnosis\r\n\r\nS. haemolyticus; pathogenesis; antibiotic resistance; biofilm; virulence factors; clinical infections\r\n\r\nsilver nanoparticles; urinary catheters; biofilm; ethylcellulose; PVP; Escherichia coli\r\n\r\ndirect-acting antivirals; Hepatitis C virus; mucocutaneous toxicity; photosensitivity; simeprevir\r\n\r\nC\\@Fe\\@Cu nanocomposite; doxorubicin; liver cancer; hepatocellular carcinoma\r\n\r\nMyocarditis, Clinically suspected myocarditis, Cardiac magnetic resonance imaging, Cardiotropic virus, Polymerase chain reaction, ELISA, Endomyocardial biops\r\n\r\nAcute pancreatitis; Neutrophil-lymphocyte ratio; Platelet to lymphocyte ratio; Severe acute pancreatitis\r\n\r\nhepatitis of unknown causes; Q-fever; Coxiella burnetii; coinfection; Egypt\r\n\r\ndiagnosis, forms, HEV ORF2, kinetics, pathogenesis, therapy\r\n\r\nHEV; glomerulonephritis; seroprevalence; anti-HEV IgG; extrahepatic disorder\r\n\r\nATP; CD39; CD73; CD39+ Tregs; COVID-19; HCV; HIV; influenza; viral infections\r\n\r\npregnancy; preterm birth; delivery; vertical transmission; COVID-19 vaccines\r\n\r\nHEV; kidney function test; acute infection; genotype 1; recovery; renal disorders\r\n\r\nHEV; glomerulonephritis; seroprevalence; anti-HEV IgG; extrahepatic disorder\r\n\r\nAcute hepatitis, AHUE, Adenovirus, Non-A–E hepatitis, Acute liver failure, Adult, Egypt\r\n\r\nciprofloxacin; HPLC; validation; antibacterial; anticancer; DNA gyrase; docking studies\r\n\r\nsimvastatin; polymeric films; wound healing; gene expression; histopathological examination\r\n\r\nHAV; HEV; co-infection; outcome; acute liver failure\r\n\r\nCancer, Tubulin, Chalcone, Pyrimidine\r\n\r\nCOVID-19; T-regulatory cells; ATP; CD39; CD73; adenosine\r\n\r\ndiabetes mellitus, biofilm formation, Staphylococci, diabetic foot, ulcers, ica genes\r\n\r\nPeriodontitis, Aggregatibacter actinomycetemcomitans, JP2 genotype, PCR, local delivery drug, probiotics\r\n\r\nSARS-CoV-2, COVID-19 comorbidities, ACE2 (Angiotensin-Converting), Enzyme 2, TMPRSS2 (Transmembrane Serine Protease 2)\r\n\r\nfragility fracture, high serum IgE, TERT mutation, unclassifiable inherited bone marrow failure\r\n\r\nHBV, “a” determinant, mutational analysis, vaccine escape, Upper Egypt\r\n\r\nHEV, PBMCs, acute hepatitis, cytokines, gene expression, persistence and replication\r\n\r\nVicia faba, Green chemistry, Nanocomposite, Anti-inflammatory, Cytotoxicity\r\nCOVID-19, Clinical implications, Mutation, SARS-CoV-2, Spike Protein, Variants\r\n\r\nE. coli, Antiadhesion, FimH, Antagonist, Thiomannoside, Oxadiazole\r\n\r\nE. coli, Antiadhesion, FimH, Antagonist, Thiomannoside, Oxadiazole\r\n\r\nExhausted T cells, Immune Checkpoints, Chimeric antigen receptor T cells, myelocytic leukemia, lymphoblastic leukemia\r\n\r\nCorticosteroids; non-A-E hepatitis; indeterminate hepatitis; acute liver failure; MELD\r\n\r\nGreen biosynthesis, AZM-AgNPs, Adsorption isotherm, Infected wound\r\n\r\nMAIT cells; Acute myeloid leukemia (AML); Vα 7.2; IFN; GrB and Immunotherapy\r\n\r\nHepatitis A virus; fecal-oral transmission; epidemiology; vaccination; fulminant hepatitis\r\n\r\nCOVID; ace2; cell entry; tmprss2\r\n\r\n5-Fluorouracil (5FU), dermabrasion, film-forming gel, JAK3 expression, vitiligo\r\n\r\nImmunity, immunomodulator, interleukins, nitric oxide, palmitic acid, Pam2Cys\r\n\r\nhepatitis C virus; daclatasvir; sofosbuvir; dendritic cells; CD200R\r\n\r\nHepatitis E virus; extrahepatic manifestations; male reproductive system; semen; male infertility; testicular tissues\r\n\r\nBreast cancer (BC), miRNA, circulating biomarkers, non-invasive diagnosis, qPCR\r\n\r\nCOVID-19; IL-6; IL-10; IP-10; sarilumab\r\n\r\nB-cell acute lymphoblastic leukemia, VISTA, CD244, CD48, FOXD3, PVRL2\r\n\r\nB-cell acute lymphoblastic leukemia, VISTA, CD244, CD48, FOXD3, PVRL2\r\nCOVID-19, Gold microelectrode, Cyclic voltammetry, Square wave , voltammetry, Electrochemical biosensor, Raman spectroscopy, Nasal swab\r\n\r\nSerologic assays, Low-middle income, COVID-19 diagnosis, Screening, ELISA\r\n\r\nGut microbiota, Relapsing remitting multiple sclerosis, Egypt\r\n\r\nataxia telangiectasia; primary immune deficiency, selective IgA deficiency\r\n\r\nHCV; prognostic marker; IL-13; vit D; miRNA-135a; HCC\r\n\r\nHEV, DILI, acute hepatitis, liver function test, screening, limited resource countries\r\n\r\nanimal model, extrahepatic, HEV, in vitro culture, pathogenesis, tissue damage\r\n\r\nCD68, Cytokines, Endometriosis, Ki67, Mesenchymal stem cells, Rats\r\n\r\nanti-HEV antibodies • edible products • HEV • HEVRNA • infection • milk • molecular assay • ruminants, serology, transmission\r\n\r\nHEV antigen, HEV genotype 1, acute self-limiting infection, fulminant hepatic failure, HEV kinetic, predictive biomarker\r\n\r\nS. haemolyticus; pathogenesis; antibiotic resistance; biofilm; virulence factors; clinical infections\r\n\r\nzinc oxide nanoparticles; azithromycin; wound healing; metal nanoparticles",
+      "keywordLength": 5844,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202306447",
+      "name": "Sammouri, Dr. Wissam Abdul Aziz",
+      "keywords": "Luxury brands, Digital fashion shows, Social media, Sentiment analysis",
+      "keywordLength": 70,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202307013",
+      "name": "Umar, Dr. Muhammad Muhammad Munir",
+      "keywords": "Clean energy, Energy investments, Financial innovation, Pension funds\r\n\r\nCSRD, Double materiality, Environmental reporting, Firm value\r\n\r\nBank performance, Financial stability, Green SMEs, Small business financing\r\n\r\nClimate policies, Digital economy, Emerging economies, Green technological innovation, Low-carbon transition\r\n\r\nClimate performance, Financial gearing, SMEs, Sustainable entrepreneurship\r\n\r\nComovement, DeFi assets, ESG, wavelet coherence transformation\r\n\r\nDemand-pull, Policy instruments, Renewable energy, Spatial spillovers, Technology-push\r\n\r\nChina, Environmental regulation, Green innovation efficiency, Porter’s hypothesis\r\n\r\nChina, Climate security, Economic security, Forest investment, Time-varying\r\n\r\nBanking sector, ESG, Inflation, Interest rates, Monetary policy, Performance\r\n\r\nDigital transformation, Information and communication technology, OECD economies, Research and development, Technology entrepreneurship\r\n\r\nBank risk, Economic freedom, US commercial banks\r\n\r\nHedging performance, Non-fungible token, Time-dependant interrelationship, World uncertainty\r\n\r\nBank valuation, Carbon footprint, Climate risks, ESG controversies, Financed emissions, Sustainable finance\r\n\r\nBank credit, credit allocation, financial accelerator theory, financial market dynamics, Housing prices\r\n\r\nCorporate governance, COVID-19, equity funds, market timing, volatility timing\r\n\r\nCarbon footprint, energy investments, M-SWARA, picture fuzzy rough sets, quantum theory\r\n\r\nBRICS, Investment styles, Mineral resources, Mutual funds\r\n\r\nCovid-19, Dynamic spillover effect, Green bonds, Oil price shocks, Russia-Ukraine conflict\r\n\r\nCOP28, Environmental regulations, Financial efficiency, OECD countries, Renewable energy\r\n\r\nCBDC adoption, Central bank digital currency (CBDC), Institutional quality\r\n\r\nEnergy justice, energy poverty, energy transition, energy vulnerability, geopolitical risk, just energy transition\r\n\r\nAudit quality, Configurational approach, Digital transformation, Innovation efficiency, Resource-based view, Risk-taking\r\n\r\nEcological footprint, Environmental quality, Logistic performance, Supply chain\r\n\r\nBRICS economies, Energy productivity, Green technological innovation, Natural resources, Renewable energy supply\r\n\r\nEconomic Policy Uncertainty (EPU), Emerging economy, Exchange rate, Remittances\r\n\r\nDigital transformation, Education, Green finance, ICT, OECD, R&D\r\n\r\nCausality, Green bond market, Investor sentiment, Time-varying\r\n\r\nCO2 emissions, geothermal energy, Quantile-on-quantile regression\r\n\r\nBRICS, Energy tokens, Optimal weights, Portfolio diversification, Static and dynamic connectedness\r\n\r\nCarbon neutrality, China, CO2 emissions, EKC, Fiscal decentralization, Institutional quality\r\n\r\nArtificial intelligence, Emerging economy, FX reserves, Inflation forecast, International finance, Machine learning\r\n\r\nClimate change, Default risk, Sustainability, Technology\r\n\r\nCrude oil price, Time-varying causal relationship, U.S. monetary policy\r\n\r\nAI stocks, AI tokens, Energy market, Quantile analysis, Spillover\r\n\r\nChina, FDI, GDP, Human capital index, Least squares, Natural resources, R&D expenditures\r\n\r\nCOP28, Environmental regulations, Financial efficiency, OECD countries, Renewable energy\r\n\r\nDigital transformation, Green finance, Mineral resources optimization, MMQR, Renewable energy consumption\r\n\r\nDiversification, Equity, Non-fungible tokens (NFTs), Quantile VAR\r\n\r\nEnergy transition, Geopolitical risks, Granger causal relation, Lithium prices\r\n\r\nDigital adoption, Exploratory data analysis, Fintech, Innovation, Principal component analysis",
+      "keywordLength": 3596,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202307846",
+      "name": "Sabir, Dr. Zulqurnain Sabir Hussain",
+      "keywords": "  Connective witnessing, Counter visuality, Digital image, Middle East uprising, Social media, Visual activism\r\n\r\nBayesian regularization, Economic/Environmental, Fractional, Neural networks, Radial basis, Delay, nSIRC, Kidney model, Transfer function\r\n\r\nBiological system, Comparison, Fractional schistosomiasis model, Scaled conjugate gradient, Supervised neural networks\r\n\r\nCross nanofluid, Inclined magnetic field, Quadratic multiple regression model, Second-order velocity slip, Spectral relaxation approach, Stagnation point\r\n\r\nCarreau nanofluid, Melting heat transport, Numerical Keller Box method, Riga plate\r\n\r\nActivation energy, Binary chemical reaction, Cross fluid, Composite cylindrical panels, Magnetic dipole, Shooting method\r\n\r\nControlled study, Human, Love, Tombstone, Validity, Drug therapy, Erratum\r\n\r\nFractional order, Levenberg–Marquardt backpropagation, Neural networks, Positive coronavirus cases, Robots mathematical system\r\n\r\nFifth order, Levenberg–Marquardt backpropagation, Nonlinear, Pantograph model, Singular system\r\n\r\nBayesian regularization, Mean square error, Neural network, Numerical solutions, Radial basis, Zika virus\r\n\r\nComplexity, Genetic algorithm, Nonlinear, Singular, Thermal explosion, Two-points\r\n\r\nHidden layers, Human immunodeficiency virus, Neural network, Radial basis and sigmoid function, Scaled conjugate\r\n\r\nEmden-Fowler, Fifth-order singular system, Levenberg–Marquardt backpropagation, Mean square error, Multiple singularity, Shape factor\r\n\r\nActive-set approach, Delay differential perturbed singular model, Genetic algorithm, Morlet wavelet neural network, Singular model\r\n\r\nGenetic algorithm, Gudermannian neural networks, Interior-point algorithm, Nonlinear predator-prey system, Numerical computing\r\n\r\nArtificial intelligence, Cancer, Dynamical model, Levenberg–Marquardt backpropagation, Numerical results\r\n\r\nActivation energy, Nanofluidics, Soft computing\r\n\r\nFractional order, Kidney function model, Neural networks, Numerical results, Scaled conjugate gradient\r\n\r\nArtificial neural networks, Delay, Global and local search, Human balancing model, Mean square error, Statistical interpretations\r\n\r\nBayesian regularization, Deep neural network, Hidden layers, Monkeypox, Radial basis activation function\r\n\r\nActivation function, Bayesian regularization, Fractional order, Neural network, Zika virus\r\n\r\nCoronavirus infection, Levenberg–Marquardt, Neural networks, Numerical results, Severe acute respiratory syndrome\r\n\r\nHuman movement, Levenberg–Marquardt, Neural network, Nonlinear, Numerical outcomes\r\n\r\nChannel, Cross fluid, Differential model, Finite difference method, Fuzzy, Induced magnetic field\r\n\r\nAccelerating universe, Fractional order, Levenberg–Marquardt backpropagation, Modified gravity, Numerical solutions\r\n\r\nNeural network, Numerical outputs, Radial basis, Scaled conjugate gradient, Zika model\r\n\r\nAir filters, Colon\r\n\r\nSigmoid, Databases\r\n\r\nFactual, Epidemics, Neural networks, Computer\r\n\r\nArtificial intelligence, Artificial neural network, Conjugate, Controlled study, Histogram, Human, Language development, Language model, Learning, Mean squared error, Nerve cell network, Sigmoid\r\n\r\nGenetic algorithm, Interior-point algorithm, Morlet wavelet, Neural networks, Nonlinear optics, Painlevé equation-II\r\n\r\nDelay differential system, Genetic algorithm, Interior-point algorithm scheme, Morlet wavelet kernel, Prediction differential system\r\n\r\nElectro-osmotic parameter, Heat transfer, Isothermal flow, Scraped surface heat exchanger\r\n\r\nLevenberg-Marquardt, Mathematical model, Mean square error, Neural network, Reference solutions, Wolbachia\r\n\r\nLog-sigmoid, Monkeypox, Neural network, Radial basis, Scaled conjugate, Two layers\r\n\r\nBayesian regularization, Fractional order, Lung cancer, Neural network, Radial basis\r\n\r\nBayesian regularization, Cholera disease, Neural network, Optimization, Radial basis\r\n\r\nBayesian regularization, Financial system, Fractional order, Neural networks, Radial basis\r\n\r\nAlgorithms, Hybridization\r\n\r\nGenetic, Neural networks, Computer, Nonlinear dynamics, Nucleic acid hybridization\r\n\r\nBuoyancy effects, Coated disk, Inclined magnetized environment, Numerical solutions, Unsteady cross fluid\r\n\r\nBayesian regularization approach, Fractional, Layla and Majnun, Neural networks, Numerical solutions\r\n\r\nActive set, Genetic algorithm, Leptospirosis, Mathematical model, Neural networks, Wavelet\r\n\r\nArtificial neural networks, HIV infection, Hybrid approach, Interior-point algorithm, Particle swarm, Statistical analysis\r\n\r\nKidney, Levenberg-Marquardt, Neural networks, Nonlinear model, Transfer function\r\n\r\nActive set, Artificial neural networks, Perturbed delay, Singular, Swarming procedure, Third order\r\n\r\nDeep neural network, Exponential stretching sheet, Maxwell nanofluid, Radial basis, Rotating flow, Variable thermal/chemical reactions\r\n\r\nLevenberg-Marquardt backpropagation, Mean square error, Neural networks, Pantograph Emden-Fowler system, Shape factors, Singular points\r\n\r\nLevenberg-Marquardt backpropagation, Shape factors, Sixth-order nonlinear Emden-Fowler model, Spectral collocation scheme\r\n\r\nCarreau model viscosity, Infinite shear rate, Lorentz force, Non-uniform heat sink/source, Shooting technique, Thermal radiation\r\n\r\nEntropy, Flow of fluids, Melting, Ordinary differential equations\r\n\r\nArtificial neural networks, Fractional order, IoT, Mean square error, Reference results, Scaled conjugate gradient\r\n\r\nActive-set method, Artificial neural networks, Genetic algorithms, Gudermannian kernel, Numerical computing, Singular three-point models\r\n\r\nBayesian regularization, Epidemic, Neural networks, Nonlinear model, Radial basis\r\n\r\nArtificial neural network, Heat and mass transfer, Levenberg-Marquardt backpropagation, Nonlinear, Numerical solutions, Reference dataset\r\n\r\nGenetic algorithm, Intelligent computing, Morlet wavelet neural networks, Numerical computing, Predator–prey model, Sequential quadratic programming\r\n\r\nGenetic algorithm, Heuristic, Interior-point, Liver model, Simulations, Transfer function\r\n\r\nBayesian regularization, Malaria, Neural network, Optimization, Radial basis\r\n\r\nBayesian regularization, Deep neural networks, Hidden layers, Prey–predator, Radial basis\r\n\r\nActive-set technique, Genetic algorithm, Gudermannian neural networks, Hybrid scheme, Lane-Emden, Neumann-Robin and Dirichlet\r\n\r\nCross nanofluid, Lorentz force effect, Nanoscale heat transport, Shooting method, Stagnation point, Variable thermal conductivity\r\n\r\nChemical reactions, Fluid dynamics, Layers, Numerical solutions, Williamson nanofluid model\r\n\r\nInterior-point, Meyer wavelet, Reactive transport system, Swarming procedure, Transportation\r\n\r\nAdams-Bashforth-Moulton, Artificial neural networks, Fractional order, Levenberg-Marquardt backpropagation, Nonlinear, Water pollution model\r\n\r\nDeep neural networks, Hidden layers, Monkeypox, Nonlinear, Radial basis, Scaled conjugate gradient\r\n\r\nFractional order, Majnun and Layla, Mathematical system, Neural networks, Reference results, Scaled conjugate gradient\r\n\r\nEconomic and environmental, Fractional order, Neural networks, Reference solutions, Scaled conjugate gradient\r\n\r\nInfluenza, Levenberg-Marquardt backpropagation, Neural networks, Nonlinear, Numerical simulations, Reference solutions\r\n\r\nArtificial neural networks, Delay perturbed differential model, Global approach, Local approach, Singular, Statistical analysis\r\n\r\nCorneal shape-based eye surgery, Gudermannian function, Neural network, Genetic algorithm, Neuron analysis, Sequential quadratic programming\r\n\r\nBuongiorno nanofluid model, Magneto-hydrodynamic and radiation, Porous medium, Variable thermal conductivity and viscosity, Vertical cone\r\n\r\nFemale, Health status, Humans, Motivation, Neoplasms, Neoplastic stem cells, Neural networks, Computer, Ovarian diseases\r\n\r\nActive set method, Artificial neural networks, Genetic algorithm, Numerical solutions, Rabinovich-Fabrikant\r\n\r\nActive-set algorithm, Artificial neural network procedures, SEIR model, Swarming procedure, Zika virus\r\n\r\nActive set, Genetic algorithms, Gudermannian function, Neural networks, Singular pantograph systems\r\n\r\nArtificial neural networks, Hepatitis B virus system, Infection disease, Sequential quadratic algorithm scheme, Statistical analysis\r\n\r\nArtificial neural networks, Bayesian regularization, Food chain supply, Fractional derivative, Reference solutions\r\n\r\nArtificial intelligence, Bayesian regularization neural networks, Mosquito dispersal mathematical system, Neurons, Numerical results\r\n\r\nComplexity analysis, Genetic algorithm, Numerical simulations, Singular model, Thermal explosion theory\r\n\r\nAlgorithms, Biological evolution, Exercise, Neural networks, Computer, Reproducibility of results\r\n\r\nAnalysis, Fractional, Interior-point algorithm, Meyer wavelet neural network, Perturbed terms, Singular, Swarming scheme\r\n\r\nActive set, Adams method, Morlet function, Neural networks, Statistical soundings, TFM nonlinear system\r\n\r\nHomogeneous-heterogeneous chemical process, Lorentz force effects, Magnetized cross nanofluid, Numerical solutions, Rotatory disks\r\n\r\nBagley–Torvik model, Fractional Meyer neural network, Genetic algorithm, Interior-point algorithm, Statistical analysis\r\n\r\nAdams results, Artificial neural networks, Genetic algorithms, Nonlinear smoke system, Sequential quadratic programming, Statistical analysis\r\n\r\nActive set procedure, Artificial intelligence, Mathematical robot system, Morlet wavelet, Numerical solutions, Particle swarm optimization\r\n\r\nLevenberg-Marquardt backpropagation, Nonlinear dengue fever, Numerical measures, Reference dataset, SIR system\r\n\r\nActive-set algorithm, Genetic algorithms, Gudermannian neural networks, Nonlinear smoke model, Numerical results, Runge-Kutta\r\n\r\nArtificial neural network, Local search programming, Numerical experimentations, Particle swarm optimization, Statistical results, Third-order nonlinear Emden-Fowler system\r\n\r\nAdams-Bashforth-Moulton, Fractional order, Levenberg-Marquardt backpropagation, Numerical solutions, Ocean\r\n\r\nInclined magnetic field, Lobatto IIIA method, Nanoparticles, Nanoscale energy transport of hybrid nanofluid\r\n\r\nArtificial neural networks, Genetic algorithm, Interior-point method, Morlet wavelet neural networks, Multi-singular, Statistical measures, Nonlinear higher-order model\r\n\r\nBvp4c, Cattaneo–Christov second grade fluid, Heat transport, Variable diffusivity, Variable thermal conductivity\r\n\r\nActive-set scheme, Emden–Fowler, Gudermannian function, Particle swarm optimization, Statistical analysis\r\n\r\nActive-set approach, Genetic algorithms, Gudermannian neural network, Higher-order, Singular, Statistical analysis\r\n\r\nArtificial neural networks, Genetic algorithms, Interior-point algorithm, Meyer wavelet neural networks, Multi-fractional model based on Lane–Emden, Multi-singular systems\r\n\r\nFractional order pantograph singular system, Interior point, Meyer wavelets, Neural networks, Particle swarm optimization, Shape factors\r\n\r\nCaputo fractional difference, Epidemics, SITRS model, Stability analysis\r\n\r\nGenetic algorithm, Gudermannian function, Nonlinear, Reference solutions, Sequential quadratic programming, SITR COVID-19 fractal system\r\n\r\nEmden-Fowler model, Feed-forward gudermannian neural networks, Genetic algorithms, Gudermannian kernel, Numerical computing\r\n\r\nFourth-order system, Levenberg–Marquardt backpropagation, Neural networks, Nonlinear, Numerical computing, Singular Emden-Fowler\r\n\r\nArtificial neural networks, Pantograph, Perturbed, Sequential quadratic programming, Singular, Swarming approach",
+      "keywordLength": 11564,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202307885",
+      "name": "Karnib, Dr. Ali Ahmad",
+      "keywords": "drip irrigation, Q-Nexus model, solar energy, sugarcane cultivation, sustainable agriculture, water-energy-food-ecosystem nexus\r\n\r\nWater-Energy-Food-Ecosystems Nexus, Sustainable Agriculture, Smart Irrigation, Q-Nexus Model\r\n\r\nWEFE Nexus, Sustainable resource management, Decision-making framework, QSP method, Environmental Sciences, Environmental Science and Management\r\n\r\nKuwait, Water resources, State of the Environment, Desalination, Groundwater, Wastewater management, Sustainable water management\r\n\r\nClimate Change, Socio-Economic Development, Municipal Water\r\n\r\nWater–energy–food–ecosystems nexus, Community well-being, African drylands, Technology-based solutions, Sustainability, Water scarcity, Energy access, Food security, Environmental management\r\n\r\ndrought\r\n\r\nWater scarcity, Climate change, WASH, Middle East, North Africa, Water governance, Adaptation, Resilience, Water policy, Sustainable water management\r\n\r\nLebanon, Climate change, National communication, Greenhouse gas inventory, Adaptation, Mitigation, Climate policy, Vulnerability assessment, Sustainable development",
+      "keywordLength": 1093,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202308166",
+      "name": "Abdel Karim, Ms. Carole Sami",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "202308208",
+      "name": "Gafney, Dr. Emily Leo",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "202308235",
+      "name": "Rima, Dr. Mohamad Mustafa",
+      "keywords": "Snake venom, Cardiovascular diseases, Hypotensive agent, Anti-platelet agent, Vasorelaxant effect, Drugs discovery, Lebanon\r\n\r\nTobamovirus, Tobacco mosaic virus, DAS-ELISA, RT-PCR, Detection\r\n\r\nAntimicrobial peptides, Antibiotic resistance, Multidrug resistance, ESKAPE\r\n\r\nSARS-CoV-2, COVID-19, ACE2, RAS, Fertility, Reproduction, Neonatal life, Long COVID\r\n\r\nPhospholipase A2, Bee venom, Snake venom, bvPLA2, svPLA2, Toxicity, Therapeutical applications\r\n\r\nRenin-angiotensin system, Angiotensin-converting enzyme 2, Angiotensin II receptor type 1, Angiotensin II receptor type 2, Infectious disease, Immunity disorders\r\n\r\nMontivipera bornmuelleri, Neurotoxicity, Cardiotoxicity, Zebrafish\r\n\r\nSeparation techniques, Analytical techniques, Biomolecules, Bioassay-guided fractionation\r\n\r\nGlioblastoma, Apis mellifera, Apis mellifera syriaca, Animal venom, Cytotoxicity, In vitro, In vivo, Anti-cancer, Therapeutic efficacy, Cell viability\r\n\r\nMetabolomics, Anticancer drugs, Medicinal plants, Drug discovery, Bioactive metabolites, Plant metabolomics, Promising tool\r\n\r\nMolecular probes, Retinoids, Vitamin A, Late stage azidation\r\n\r\nHyperalgesia, Inflammation, Immunomodulatory activity, Cytokines, Pain\r\n\r\nExtracellular vesicles, Biofilm, Drug delivery, CCN1, CYR61, Senescence, Cancer, Fibrosis, Transposable elements, Transposons, Mobile DNA, Diagnosis, Biomarker, Therapy",
+      "keywordLength": 1373,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202308236",
+      "name": "Jaffal, Dr. Hamza Ali",
+      "keywords": "Microfine cement, Permeation grouting, Grout stability, Digital imaging, Image analysis.\r\nCollapsible soils, Brittleness, Static and cyclic strength, Salt cementation, Dynamic properties, Dilation potential.\r\nnon-Newtonian fluids, water pressure test, fracture dimensions.",
+      "keywordLength": 272,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202308237",
+      "name": "Salam, Dr. Mahmoud Mohammad",
+      "keywords": "Para-functional, Nail biting, Bruxism, Personality factors, Saudi population, flat feet, back pain, odds ratio, acute, chronic, Influenza, COVID-19, Vaccine, Hesitancy, Concept, Lebanon, Review, Scorpion, Envenomation, \r\nPrevalence, Outcomes, Review, Saudi Arabia, Influenza, Vaccine, Public transportation, Uptake, Hesitancy, Lebanon, stem cell, quality of life, transplantation, survivors, qualitative research",
+      "keywordLength": 412,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202308354",
+      "name": "Mehanna, Dr. Mohammed Maher Mohammed Riyad Mohamed, Mehanna",
+      "keywords": "Acne, adolescents, education, knowledge\r\n\r\nPyrazolopyridine, Nanocrystals, Colorectal cancer, Antiproliferative, HCT-116, HT-29, NCM-460D\r\n\r\ncancer, liposomes, metallic nanocarriers, nanohybrid systems, theranostic delivery\r\n\r\ncancer, nanocarriers, nanohybrid systems, siRNA, systemic delivery\r\n\r\nEthics, Neuroethics, Clinical trials, Neurosciences\r\n\r\nCOVID-19, knowledge, attitudes, awareness, practices, preventive, measures\r\n\r\nBiopharmaceuticals, dispersion medium, formulation, freeze-drying, ice nucleation, nanoparticulate system, cycle development\r\n\r\nBox-Behnken, methylcellulose, niosomes, oral film, tadalafil\r\n\r\nbrain distribution, BBB, limonene, microemulsion, thermo-sensitive, mucoadhesion, nanogel, nanocarriers, propranolol\r\n\r\nBrain, barriers, transcytosis, nose to brain, targeting effect, Challenges\r\n\r\nraloxifene, nanosponges, anticancer, beta-cyclodextrin, breast cancer\r\n\r\natorvastatin, Box–Behnken design, colorectal cancer, chitosan, cubosomes, nanoparticles\r\n\r\n3D scaffold, amorphization, biologics, film, freeze-drying, porous, solid-dispersion\r\n\r\nraloxifene, lipid based nanovesicles, cytotoxicity, breast cancer, hexosomes\r\n\r\nandrogenic alopecia, emulgel, metformin, nanoemulsion, rosemary oil, quality by design",
+      "keywordLength": 1238,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202308440",
+      "name": "Khalifeh, Mr. Ali Haidar",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "202401263",
+      "name": "Srour, Dr. Ali Ismail",
+      "keywords": "social Network Analysis, Twitter, Influence rating, Influencers, Reputation, Social Listening,\r\ncomputational Social Science, User impact, Big data, Data science, COVID-19, Infodemic, Natural Language Processing.",
+      "keywordLength": 212,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202401711",
+      "name": "Kirikkaleli, Dr. Dervis Mustafa",
+      "keywords": "  Environment, AI, AI investment, Nonlinear, Canada\r\n\r\nArtificial intelligence investment, Financial risk, USA, Quantile wavelet regression, Wavelet quantile correlation, Quantile ADF, Financial stability\r\n\r\nFrance, Energy Productivity, Resource Productivity, Environment, Wavelet Quantile Correlation, Quantile ADF, Wavelet Quantile Regression\r\n\r\nSustainable development, Load capacity factor, Renewable energy technology, Government effectiveness, Digitalisation, Human capital, Germany, Kernel-based quantile regression\r\n\r\nAI investment, Environmental sustainability, Ecological footprint, Sustainability, Economic growth\r\n\r\nTransport infrastructure investments, Total energy supply, Material footprint, Renewable energy consumption, Economic growth, France, NARDL model, Environmental policy\r\n\r\nArtificial intelligence investment, Sustainable development goals (SDGs), Green electricity, Economic growth (GDP), USA, Non-linearity, Asymmetric effects\r\n\r\nEcological footprint, Energy transition, Market-based environmental policies, Non-market-based environmental policies, Brazil, Russia, India, China, and South Africa, Kernel-based regularized least-squares approach\r\n\r\nconstruction costs; construction-led growth; Bon curve theorem; FMOLS; DOLS; panel causality; Europe; Asia; Eurasia\r\n\r\nEnvironmental policy stringency, CO2 emissions, Ecological footprint, Load capacity factor, G7 countries\r\n\r\nFinancial Risk, Investment, Artificial Intelligence, USA, Wavelet Quantile Correlation, Quantile Wavelet Regression\r\n\r\nAI, Education, Economic growth, USA, Fourier ADL cointegration\r\n\r\nEconomic Welfare, India, Dynamic ARDL, KRLS Simulations\r\n\r\nResource Efficiency, Energy Productivity, Environmental Sustainability, G7\r\n\r\nEnergy Transition, Energy Security Risk, CO2 Emissions, USA, Quantile-Based Models\r\n\r\nUrbanization, Fossil Energy Consumption, Regulatory Quality, Environmental Degradation, Black Sea Region, Dynamic Analysis\r\n\r\nICT, Institutional Quality, Ecological Footprint, MERCOSUR Nations\r\n\r\nHealthcare Expenditure, USA, Climate Change, Globalization, Technological Innovation\r\n\r\nMaterial Footprint, USA\r\n\r\nEnvironmental Policy Stringency, Sectoral CO2 Emissions, EU-5 Countries, Quantile-Based Approaches\r\n\r\nPolitical Risk, Economic Growth, Cyprus\r\n\r\nEnvironmental Tax, Renewable Energy, Environmental Sustainability, Germany, Wavelet and Fourier-Based Approaches\r\n\r\nCOVID-19 Pandemic, Stock Market Index, Turkey, Regime-Switching\r\n\r\nPolitical Stability Effect, Environment, Netherlands, Fourier-Based Approaches\r\n\r\nRenewable Energy Transition, BRICS Countries, Environmental Sustainability\r\n\r\nEnvironmental Tax, Energy, Environmental Degradation, UK, Fourier-Based Estimators\r\n\r\nClimate Policy Uncertainty, Renewable Energy, Clean Technology Stock Prices, Canada\r\n\r\nFinance-Trade Nexus, Non-tradeables, USA\r\n\r\nEconomic and Financial Stabilities, Political Stability, Estonia\r\n\r\nCarbon Taxes, Resource Efficiency, Environmental Sustainability, Developed Country\r\n\r\nGreen Logistics, Financial Innovation, Environmental Sustainability, China, Fourier Approaches\r\n\r\nSustainable Growth, Political Risk, Carbon Footprint, Energy Transition, Financial Expansion\r\n\r\nResource Efficiency, Energy Productivity, Environmental Sustainability, Germany\r\n\r\nEconomic Complexity, Environmental Sustainability, Eastern Europe, Fourier Approach\r\n\r\nEnvironmental Taxes, Environmental Innovation, Energy Resources, Five Sustainable Economies\r\n\r\nDemand-Based CO2 Emissions, Production-Based CO2 Emissions, UK\r\n\r\nGreen Logistics, Green Finance, Carbon Neutrality Goal\r\n\r\nEnvironmental Taxes, Environmental Quality, Canada\r\n\r\nLoad Capacity Factor, Economic Complexity, Trade Globalization, Japan\r\n\r\nResource Efficiency, Energy Productivity, Environmental Quality, Japan\r\n\r\nNatural Resources Utilization, Geopolitical Risk, Economic Performance, China\r\n\r\nGreen Technologies, Government Stability, Green Energy Transition, E7 Nations\r\n\r\nGlobalization, Renewable Energy, Agriculture, CO2 Emissions, India\r\n\r\nNatural Gas, Nuclear Energy, Environmental Sustainability, India\r\n\r\nEnergy Productivity, Financial Stability, Environmental Degradation, Eastern Europe, Fourier Approaches\r\n\r\nEconomic Risk, Political Risk, UK, Wavelet Coherence, Quantile-on-Quantile\r\n\r\nHybrid Artificial Intelligence, Forecasting Accuracy, Natural Resource Prices\r\n\r\nFinancial Innovation, Renewable Energy, Environmental Quality, India\r\n\r\nPolitical Stability, Environmental Quality, Long Run, Turkey\r\n\r\nEnergy Efficiency, Financial Expansion, Emerging Economies\r\n\r\nEnvironmental Innovation, Environmental Sustainability, Nordic Country, Nonlinear Approaches\r\n\r\nEnergy Productivity, Environmental Degradation, Netherlands, Fourier-Based Estimators\r\n\r\nCO2 Intensity of GDP, Energy Productivity, Environmental Degradation, Iceland, Fourier-Based Estimators\r\n\r\nUniversities’ Carbon Footprint, Integrated Review\r\n\r\nDigital Financial Inclusion, Energy Transition, COP26 Targets, Sustainable Development Goals\r\n\r\nTechnological Innovation, Natural Resources, Financial Inclusion, Environmental Degradation, BRI Economies\r\n\r\nGreen Technological Innovation, Financial Development, Economic Policy Uncertainty, Institutional Quality, Environmental Sustainability\r\n\r\nEnergy Productivity, Environmental Degradation, Poland, Fourier ARDL-Based Approach\r\n\r\nE-Waste Repurposing, Green Economy, Emerging Economies\r\n\r\nEnvironmental Values, Environmental Planning, Management\r\n\r\nPolitical Stability, Environmental Quality, Long-Run, Iceland, Non-Linear Approaches\r\n\r\nCO2 Intensity of GDP, Environmental Degradation, South European Countries\r\n\r\nCO2 Behavior, COVID-19, UK, Renewable & Non-Renewable Energy\r\n\r\nFinancial Stability, Carbon Neutrality Target, Iceland, Global Comparison\r\n\r\nFinancial Risk, Environmental Sustainability, Poland, Fourier-Based Estimators\r\n\r\nEnvironmental Tax, Environmental Degradation, Netherlands, Fourier-Based Estimators\r\n\r\nGovernment Expenditures, Tax Revenues, USA\r\n\r\nPatents on Environmental Technologies, Environmental Degradation, Scandinavian Country, Fourier-Based Estimators\r\n\r\nRenewable Energy Consumption, Technological Innovation, Environmental Degradation, SDG Framework, Developed Economy\r\n\r\nEnergy Resources, Financial Development, Environmental Sustainability\r\n\r\nBlockchain Technology, FinTech Banking, ANFIS K-Nearest Neighbors\r\n\r\nConsumption-Based CO2 Emissions, Denmark, Financial Stability, Energy Productivity\r\n\r\nEnvironmental Quality, Portugal, CO2 Intensity of GDP, Renewable Energy Consumption\r\n\r\nFinancial Stability, Environmental Degradation\r\n\r\nPolitical Stability, Production-Based CO2 Emissions, UK, Non-Linear ARDL, Frequency Domain Causality\r\n\r\nEnvironmental Sustainability, Economic Growth, Eastern Europe, Common Correlated Effect Mean Group\r\n\r\nMineral Saving, Energy, Ecological Footprint, Emerging Market, Fourier-Based Approaches\r\n\r\nEnergy Productivity, Environmental Quality, Industry 4.0, Portugal\r\n\r\nEnvironmental Innovation, CO2 Intensity of GDP, Consumption-Based CO2 Emissions, Denmark\r\n\r\nEconomic, Financial, Political Stabilities, Banking Sector, Six Balkan Countries\r\n\r\nEnergy Productivity, Environmental Quality, Sweden, Fourier, Non-Linear Approaches\r\n\r\nEconomic Globalization, Decarbonization Technologies, Carbon Neutrality, Germany, Fourier-Based Approaches\r\n\r\nPatents on Environmental Technologies, Ecological Footprint, USA, Fourier ARDL Approach\r\n\r\nEnergy Productivity, Environmental Degradation, United Kingdom, Fourier-Based Approach\r\n\r\nPolitical Risk, Environmental Issues, China, Correction\r\n\r\nTrade Openness, Ecological Footprint, MINT Economies, Wavelet-Based Model\r\n\r\nFiscal Decentralization, Environmental Sustainability, Developing and Emerging Economies\r\n\r\nPublic-Private Partnership Investment, Energy, CO2 Emissions, Pakistan\r\n\r\nGreen technologies, Financial development, Environmental sustainability, Western European countries\r\n\r\nSustainable Environment, Italy, Trade Globalization, Human Capital, Renewable Energy Consumption\r\n\r\nEnergy Productivity, Environmental Quality, Ireland\r\n\r\nPatents on Environmental Technologies, Financial Development, Environmental Degradation, Sweden, Fourier-Based Approaches\r\n\r\nEnvironment Kuznets Curve Hypothesis, MINT Countries\r\n\r\nEnergy Productivity, Environmental Degradation, Germany, Fourier Approaches\r\n\r\nPolitical Stability, Production-Based CO2 Emissions, UK, Non-Linear ARDL, Frequency Domain Causality\r\n\r\nEnergy Productivity, Economic Growth, Environmental Sustainability, South European Countries\r\n\r\nPolitical Risk, Financial Risk, Balkan Countries, Wavelet-Based NARDL Coherency\r\n\r\nNatural Resources, Financial Inclusion, Ecological Footprint, ECOWAS Economies, Economic Governance Institutions\r\n\r\nNet Zero Emission Targets, Sustainable Development Goals, Material Footprint Strategies\r\n\r\nPolitical Risk, Environmental Quality, Brazil, Green Finance, Green Innovation\r\n\r\nEconomic and Environmental Factors, Social Sustainability, Eastern Europe, Dynamic Analysis, CCEMG & D-H Causality\r\n\r\nEnergy Productivity, Environmental Quality, Finland\r\n\r\nEconomic Globalization, Political Instability, Renewable Energy, Environmental Degradation\r\n\r\nU.S. Food Prices, Modeling\r\n\r\nManagement, Economic Growth, Debt Nexus\r\n\r\nFinancial-Economic-Political Risk, Regime Switching, Turkey\r\n\r\nEnergy Productivity, Environmental Degradation, Cyprus\r\n\r\nPolitical Stability, Consumption-Based CO2 Emissions, Finland, Nonlinear & Fourier-Based Approaches\r\n\r\nFinancial Stability, Environmental Degradation, Norway\r\n\r\nEnvironmental Sustainability, Public–Private Partnerships Investment, Energy, Bangladesh\r\n\r\nQuality Management System, Environmental Innovation, Sustainability Goals, Structural Analysis\r\n\r\nForeign Exchange Rates, Country Risk, Time-Frequency Dependency, Turkey\r\n\r\nEnergy Productivity, Environmental Degradation, Greece, Correction\r\n\r\nCO2 Intensity of GDP, Environmental Degradation, Emerging Country\r\n\r\nFinancial Stability, Technological Innovation, Renewable Energy, Sustainable Development Goals, BRICS\r\n\r\nEnergy Productivity, Environmental Deregulation, Greece\r\n\r\nGlobal Environmental Sustainability, Nonlinear ARDL Bounds Test\r\n\r\nPandemic Uncertainty, German Stock Market, Markov Regime-Switching, Fourier\r\n\r\nRemittances, Natural Resources, Technological Innovation, Economic Growth, Environmental Sustainability, Pakistan\r\n\r\nEconomic Growth, Environmental Degradation, Energy Consumption, South Africa, Cointegration\r\n\r\nEconomic & Financial Risks, Time-Frequency Analysis, MINT Nations\r\n\r\nPatents on Environmental Technologies, Environmental Sustainability, Spain\r\n\r\nNon-performing Loans, Bank Concentrations, Emerging Market, Wavelet Coherence\r\n\r\nFamily Control, Capital Structure, Non-Financial Listed Firms\r\n\r\nCarbon Neutrality Target, Turkey, Technological Innovation, Structural Change\r\n\r\nIndustrialization, Carbon Emissions, ASEAN + 3 Economies\r\n\r\nUrbanization, Environmental Development, BRICS-T Countries\r\n\r\nFinancial Development, Natural Resources, Trade Globalization, Uruguay\r\n\r\nRenewable Energy Transition, Environmental Technologies, Economic Policy Uncertainty, Top Polluted Economies\r\n\r\nPolitical Risk, Environmental Issues, China\r\n\r\nShanghai Stock Exchange, COVID-19, China, Wavelet Coherence\r\n\r\nConsumption-Based Carbon Emissions, Trade, Globalization, Bolivia\r\n\r\nUrbanization, Economic Growth, Ecological Footprint, Eastern Europe\r\n\r\nEconomic Complexity, Economic Growth, Renewable Energy Technology Budgets, Ecological Footprint, Democratic Accountability\r\n\r\nGlobalization, Hydroelectricity Consumption, Environmental Sustainability, China\r\n\r\nLoad Capacity Factor, Financial Globalization, Brazil, Renewable Energy, Urbanization\r\n\r\nTechnological Innovation, Globalization, BRICS Economies, Environmental Sustainability\r\n\r\nEnvironmental Sustainability, Regulatory Quality, Emerging Economies, Eastern Europe\r\n\r\nCO2 Behavior, COVID-19, UK, Renewable & Non-Renewable Energy\r\n\r\nSustainable Technology, High-Income Economies, Innovation\r\n\r\nEnergy Consumption, Economic Growth, Militarization, CO2 Emissions, Treadmill of Destruction\r\n\r\nRenewable Energy Usage, Consumption-Based Carbon Emissions, MINT Economies\r\n\r\nLoad Capacity Factor, Financial Globalization, Brazil, Renewable Energy, Urbanization\r\n\r\nGlobalization, Renewable Energy Consumption, Environmental Degradation, South Africa\r\n\r\nTechnological Innovation, Environmental Degradation, Sweden, Aggregated & Disaggregated Analysis\r\n\r\nEnergy Efficiency, Low Carbon Energy Sources, OECD Economies\r\n\r\nStructural Change, Renewable Energy Consumption, Carbon Emissions, SDG Framework, Turkey\r\n\r\nFinancial & Economic Risks, Time-Frequency Dependencies, South American Countries\r\n\r\nFamily Control, Capital Structure, Non-Financial Listed Firms\r\n\r\nFinancial Globalization, Economic Growth, Environmental Sustainability, Panel Analysis\r\n\r\nSectoral Credit-Growth Nexus, Australia, Time & Frequency Dynamic Analysis\r\n\r\nEconomic Policy Uncertainty, Trade Policy, Financial Regulation, CO2 Emissions, United States, Wavelet Coherence & Frequency Domain Causality\r\n\r\nLoad Capacity Factor, Financial Globalisation, Brazil, Renewable Energy, Urbanisation\r\n\r\nConsumption-Based Carbon Emissions, Renewable Energy, Financial Development, Economic Growth, Chile\r\n\r\nNatural Resources, Natural Gas & Oil Production, Economic Growth, China\r\n\r\nNatural Resources Commodity Prices Volatility, Economic Performance, China, Pre & Post COVID-19\r\n\r\nPolitical Risk, Carbon Neutrality, Brazil\r\n\r\nEnergy Productivity, Public-Private Investment, Carbon Neutrality, China\r\n\r\nFinancial Development, Economic Growth, Ecological Footprint, Technological Innovation\r\n\r\nTemperature & Sea Level, Time-Frequency Dependency, Global\r\n\r\nEconomic Policy Uncertainty, Inflation, Japan, Time & Frequency Co-Movement\r\n\r\nPortfolio Optimization, Financial Commodities, Energy Futures\r\n\r\nEconomic Policy Uncertainty, Carbon Emissions, Foreign Capital Investment, Renewable Energy, East Asian Economies\r\n\r\nEconomic Risk, QISMUT Countries, Nonlinear Cointegration Tests\r\n\r\nEco-Innovation, Cleaner Energy, Energy Prices, Human Capital\r\n\r\nEcological Footprint, Public-Private Partnership Investment, Financial Development, Brazil, Gradual Shift Causality\r\n\r\nPublic-Private Partnership Investment, Technological Innovation, Ecological Footprint, Pakistan\r\n\r\nRenewable Energy, Trade, CO2 Emissions, Italy, Asymmetric Effect\r\n\r\nFiscal Decentralization, Natural Resources Rent, Carbon Emissions, Developed Countries\r\n\r\nEconomic Growth, Carbon Emissions, Agriculture, Urbanization, Thailand, Frequency Domain Analysis\r\n\r\nNatural Gas, Oil, Coal Consumption, Environmental Quality, Russia\r\n\r\nInternational Trade, Consumption-Based Carbon Emissions, Composite Risk, RCEP Economies\r\n\r\nTrade Openness, Export Diversification, Renewable Electricity Output, Carbon Neutrality, China\r\n\r\nFinancial Development, Renewable Energy Electricity, China, Carbon Neutrality Target\r\n\r\nCoal Consumption, Environmental Sustainability, South Africa, Financial Development, Globalization\r\n\r\nComparative Analysis, COVID-19, Global Financial Crises, US Economy\r\n\r\nSustainable-Performance Instrument Development, Northern Cyprus Banking Sector\r\n\r\nEnergy Price, Food Price, Causal Linkage\r\n\r\nNatural Resources, Economic Globalization, Disaggregated Energy Consumption, Environmental Quality, GCC Economies\r\n\r\nNatural Gas, Oil, Coal Consumption, Environmental Degradation, Russia\r\n\r\nCarbon Neutrality Target, G7 Economies, Environmental Policy, Green Innovation\r\n\r\nAir Pollution, Renewable Electricity Production, Sweden, COVID-19\r\n\r\nEconomic Stability & Political Stability, China & Japan\r\n\r\nEnergy Prices, Non-linear Fiscal Decentralization, Carbon Emissions, Environmental Sustainability\r\n\r\nEconomic Expansion, United Kingdom, Energy Mix Specificity\r\n\r\nFDI-Trade-Innovation Nexus, Carbon Emissions, Carbon Neutrality, China\r\n\r\nPublic-Private Partnerships, Renewable Energy Consumption, CO2 Emissions, India\r\n\r\nFinancial Inclusion, Carbon Dioxide Emissions, Globalization, Renewable Electricity Output\r\n\r\nInternational Symposium on Economic Thought - ISET\r\n\r\nConsumption-Based Carbon Emissions, Economic Growth, Renewable Energy, Technological Innovation, Brazil\r\n\r\nForeign Aid, Economic Growth, Chad, Time Series Analysis\r\n\r\nCOVID-19 Pandemic, Renewable Electricity Generation, Denmark, Regime Switching\r\n\r\nCO2 Emissions, Malaysia, Maki Cointegration, Wavelet Coherence\r\n\r\nEnvironmental Quality, China, Renewable Energy Consumption, Trade Openness\r\n\r\nEconomic Performance, Indonesia, CO2 Emissions, Agriculture, Time Series Analysis\r\n\r\nEconomic Growth, Environmental Sustainability, India, Agriculture, Trade Openness\r\n\r\nEconomic Growth, Carbon Emission, China, Intertemporal Change\r\n\r\nConsumption-Based Carbon Emissions, Chile, Non-Linear ARDL\r\n\r\nTemperature, Environmental Quality, Global, Wavelet Coherence\r\n\r\nRenewable Energy, Globalization, Technological Innovation, Environmental Degradation, Japan, Wavelet Tools\r\n\r\nGender Equality, Education, Environmental Sustainability, Sub-Saharan Africa\r\n\r\nCO2 Emissions, Energy Consumption, Economic Performance, South Korea\r\n\r\nNatural Resources Abundance, Human Capital, Economic Growth, Resource Curse, Next Eleven Countries\r\n\r\nFinancial Risk, Fiscal Decentralization, Resource Curse, China, Globalization\r\n\r\nEcological Footprint, Public-Private Partnership Investment, Energy, Financial Development, Brazil, Gradual Shift Causality\r\n\r\nPublic-Private Partnership Investment, Energy, Technological Innovation, Environmental Sustainability, East Asia & Pacific, Frequency Domain Causality\r\n\r\nCommodity Price Indexes, Energy Price Index, Wavelet Coherence\r\n\r\nHouse Pricing, Money Demand, Wavelet Coherence\r\n\r\nGlobalization, Ecological Footprint, Turkey, Dual Adjustment Approach\r\n\r\nCO2 Emissions, Agriculture, Economic Performance, Indonesia, Time Series Analysis\r\n\r\nCO2 Emissions, Energy Consumption, Economic Performance, South Korea, Time Series Analysis\r\n\r\nFinancial Risk, Economic Risk, China, Wavelet Coherence\r\n\r\nLand Use Changes, Turkish Territories, Socio-Economic Impacts, Territorial Management\r\n\r\nConsumption-Based Carbon Emissions, Mexico, Dual Adjustment Approach\r\n\r\nConsumption-Based Carbon Emissions, Chile, Non-Linear ARDL\r\n\r\nForeign Exchange Rate Returns, Stock Market Returns, Emerging Market, Wavelet Coherence\r\n\r\nSovereign Credit Ratings, Economic Risk, Balkan Countries\r\n\r\nFinancial Liberalization, Economic Growth, Liberia, Dynamic Analysis\r\n\r\nNon-Performing Loans, Economic Growth, Emerging Countries, Turkey, Wavelet Coherence\r\n\r\nHousehold Consumption-Induced Carbon Emissions, China\r\n\r\nWorld Pandemic Uncertainty, German Stock Market, Markov Regime-Switching, Fourier\r\n\r\nBroadband, Mobile Telephone, Economic Growth, G7 Countries\r\n\r\nCircular & Green Economy, Mediterranean Region",
+      "keywordLength": 18721,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202401718",
+      "name": "Akiki, Dr. Zeina Ibrahim",
+      "keywords": "Conflict-affected regions, Depersonalization, Emotional exhaustion, Healthcare trainees, Postgraduate medical education, Professional efficacy, Quality of life domains\r\n\r\nAdult, Anesthesiology, Burnout, Professional, Cross-Sectional Studies, Female, Humans, Internship and Residency, Lebanon, Male, Risk Factors, Surveys and Questionnaires\r\n\r\nCommunity mental health centre, Community-based mental health care, Depressive disorder, Generalized anxiety disorder, Lebanon, Mental health, Post-traumatic stress disorder\r\n\r\nCounseling, Knowledge, Nutrition, University students, Willingness\r\n\r\nCOVID-19, Frontline, Lebanon, Mental health, Pharmacists\r\n\r\nCommunity child health, Epidemiology, General medicine, Public health",
+      "keywordLength": 719,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202402110",
+      "name": "Hitti, Dr. Sandreen Elia",
+      "keywords": "1.Artificial intelligence (AI), Customer experience (CX), B2B, AI-powered customer support, Ethical implications",
+      "keywordLength": 112,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202403128",
+      "name": "Lippa, Dr. Cristiano Luciano",
+      "keywords": " ",
+      "keywordLength": 1,
+      "category": "empty"
+    },
+    {
+      "faculty_id": "202403427",
+      "name": "Abou-Abbas, Dr. Lina Kamel",
+      "keywords": "Auto-encoder, CNN, EEG signal, Emotion recognition, LSTM\r\n\r\nClustering, K-means, KneeKG, Osteoarthritis, Principal Component Analysis\r\n\r\nData augmentation, EEG, Epileptic seizure, LSTM, WGAN-GP\r\n\r\nCross-subject modeling, Deep learning, Domain adaptation, EEG, Epileptic seizure prediction",
+      "keywordLength": 288,
+      "category": "normal"
+    },
+    {
+      "faculty_id": "202404484",
+      "name": "Abdel Massih, Ms. Krystelle Atef",
+      "keywords": "",
+      "keywordLength": 0,
+      "category": "empty"
+    }
+  ]
+}

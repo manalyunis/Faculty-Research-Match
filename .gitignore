@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.production.template
 
 # vercel
 .vercel
@@ -39,3 +40,45 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# deployment and production files
+/logs/
+/data/
+/deploy/ssl/
+*.log
+
+# Python cache and models
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+/python/models/
+/python/.cache/
+
+# ML model files
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Backup files
+/backups/
+*.backup
+
+# Docker volumes
+docker-compose.override.yml
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
