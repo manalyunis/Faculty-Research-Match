@@ -1,4 +1,4 @@
-import { createServiceRoleClient } from '@/lib/database'
+import { query } from '@/lib/database'
 import { generateEmbeddings, padEmbeddingTo1536 } from '@/lib/transformers-embedding'
 import { NextRequest, NextResponse } from 'next/server'
 
@@ -16,8 +16,6 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       )
     }
-
-    const supabase = createServiceRoleClient()
 
     // Validate each faculty record
     const validatedFaculty = []
@@ -61,28 +59,24 @@ export async function POST(request: NextRequest) {
         embedding: paddedEmbeddings[index]
       }))
 
-      // Insert into database using raw SQL (PostgreSQL doesn't have Supabase's upsert method)
-      const db = supabase as any
-      const insertedCount = await db.transaction(async (client: any) => {
-        let count = 0
-        for (const faculty of facultyWithEmbeddings) {
-          const result = await client.query(
-            `INSERT INTO faculty (faculty_id, name, keywords, title, school, department, embedding)
-             VALUES ($1, $2, $3, $4, $5, $6, $7)
-             ON CONFLICT (faculty_id) DO UPDATE SET
-               name = EXCLUDED.name,
-               keywords = EXCLUDED.keywords,
-               title = EXCLUDED.title,
-               school = EXCLUDED.school,
-               department = EXCLUDED.department,
-               embedding = EXCLUDED.embedding,
-               updated_at = NOW()`,
-            [faculty.faculty_id, faculty.name, faculty.keywords, faculty.title, faculty.school, faculty.department, JSON.stringify(faculty.embedding)]
-          )
-          count += result.rowCount || 0
-        }
-        return count
-      })
+      // Insert into database using raw SQL
+      let insertedCount = 0
+      for (const faculty of facultyWithEmbeddings) {
+        await query(
+          `INSERT INTO faculty (faculty_id, name, keywords, title, school, department, embedding)
+           VALUES ($1, $2, $3, $4, $5, $6, $7::vector)
+           ON CONFLICT (faculty_id) DO UPDATE SET
+             name = EXCLUDED.name,
+             keywords = EXCLUDED.keywords,
+             title = EXCLUDED.title,
+             school = EXCLUDED.school,
+             department = EXCLUDED.department,
+             embedding = EXCLUDED.embedding,
+             updated_at = NOW()`,
+          [faculty.faculty_id, faculty.name, faculty.keywords, faculty.title, faculty.school, faculty.department, JSON.stringify(faculty.embedding)]
+        )
+        insertedCount++
+      }
 
       return NextResponse.json({
         message: `Successfully processed ${validatedFaculty.length} faculty members`,
@@ -94,26 +88,22 @@ export async function POST(request: NextRequest) {
       console.error('Embedding generation error:', embeddingError)
 
       // Fallback: Insert without embeddings using raw SQL
-      const db = supabase as any
-      const insertedCount = await db.transaction(async (client: any) => {
-        let count = 0
-        for (const faculty of validatedFaculty) {
-          const result = await client.query(
-            `INSERT INTO faculty (faculty_id, name, keywords, title, school, department)
-             VALUES ($1, $2, $3, $4, $5, $6)
-             ON CONFLICT (faculty_id) DO UPDATE SET
-               name = EXCLUDED.name,
-               keywords = EXCLUDED.keywords,
-               title = EXCLUDED.title,
-               school = EXCLUDED.school,
-               department = EXCLUDED.department,
-               updated_at = NOW()`,
-            [faculty.faculty_id, faculty.name, faculty.keywords, faculty.title, faculty.school, faculty.department]
-          )
-          count += result.rowCount || 0
-        }
-        return count
-      })
+      let insertedCount = 0
+      for (const faculty of validatedFaculty) {
+        await query(
+          `INSERT INTO faculty (faculty_id, name, keywords, title, school, department)
+           VALUES ($1, $2, $3, $4, $5, $6)
+           ON CONFLICT (faculty_id) DO UPDATE SET
+             name = EXCLUDED.name,
+             keywords = EXCLUDED.keywords,
+             title = EXCLUDED.title,
+             school = EXCLUDED.school,
+             department = EXCLUDED.department,
+             updated_at = NOW()`,
+          [faculty.faculty_id, faculty.name, faculty.keywords, faculty.title, faculty.school, faculty.department]
+        )
+        insertedCount++
+      }
 
       return NextResponse.json({
         message: `Successfully processed ${validatedFaculty.length} faculty members (without embeddings)`,
