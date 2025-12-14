@@ -53,11 +53,5 @@ services:
     # Auto-deploy on push
     autoDeploy: true
 
-    # Persistent disk for model cache
-    disk:
-      name: transformers-models
-      mountPath: /app/.cache
-      sizeGB: 1 # 1GB should be enough for the model (~25MB + overhead)
-
 # Blueprint version
 version: "1"
