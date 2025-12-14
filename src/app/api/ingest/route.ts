@@ -1,5 +1,5 @@
 import { createServiceRoleClient } from '@/lib/database'
-import { generateEmbeddings, prepareKeywordsForEmbedding } from '@/lib/openai'
+import { generateEmbeddings, padEmbeddingTo1536 } from '@/lib/transformers-embedding'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(request: NextRequest) {
@@ -42,17 +42,20 @@ export async function POST(request: NextRequest) {
       })
     }
 
-    // Generate embeddings for all faculty keywords
+    // Generate embeddings for all faculty keywords using Transformers.js
     console.log(`Generating embeddings for ${validatedFaculty.length} faculty members...`)
 
     try {
-      const keywordsTexts = validatedFaculty.map(f => prepareKeywordsForEmbedding(f.keywords))
+      const keywordsTexts = validatedFaculty.map(f => f.keywords)
       const embeddings = await generateEmbeddings(keywordsTexts)
+
+      // Pad from 384-dim to 1536-dim for database compatibility
+      const paddedEmbeddings = embeddings.map(emb => padEmbeddingTo1536(emb))
 
       // Combine faculty data with embeddings
       const facultyWithEmbeddings = validatedFaculty.map((faculty, index) => ({
         ...faculty,
-        embedding: embeddings[index]
+        embedding: paddedEmbeddings[index]
       }))
 
       // Insert into database using upsert to handle updates
@@ -101,7 +104,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({
         message: `Successfully processed ${validatedFaculty.length} faculty members (without embeddings)`,
         inserted: insertedData?.length || validatedFaculty.length,
-        warning: 'Embeddings were not generated due to API error',
+        warning: 'Embeddings were not generated due to model error',
         faculty: insertedData
       })
     }
