@@ -82,3 +82,10 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Claude AI files
+.claude/
+
+# Temporary files
+ho it works.txt
+nul

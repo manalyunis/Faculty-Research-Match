@@ -1,0 +1,178 @@
+-- Faculty Research Match - PostgreSQL Schema
+-- For Render PostgreSQL (free tier)
+-- This schema is compatible with pgvector for embeddings
+
+-- ============================================================================
+-- EXTENSIONS
+-- ============================================================================
+
+-- Enable the pgvector extension for vector similarity search
+CREATE EXTENSION IF NOT EXISTS vector;
+
+-- ============================================================================
+-- TABLES
+-- ============================================================================
+
+-- Create faculty table
+CREATE TABLE IF NOT EXISTS faculty (
+  faculty_id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  keywords TEXT NOT NULL,
+  title TEXT NOT NULL,
+  school TEXT NOT NULL,
+  department TEXT NOT NULL,
+  embedding VECTOR(1536), -- 384-dim from Transformers.js, padded to 1536
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- ============================================================================
+-- INDEXES
+-- ============================================================================
+
+-- Full-text search indexes for name and keywords
+CREATE INDEX IF NOT EXISTS idx_faculty_name
+  ON faculty USING gin(to_tsvector('english', name));
+
+CREATE INDEX IF NOT EXISTS idx_faculty_keywords
+  ON faculty USING gin(to_tsvector('english', keywords));
+
+-- Filter indexes
+CREATE INDEX IF NOT EXISTS idx_faculty_school
+  ON faculty (school);
+
+CREATE INDEX IF NOT EXISTS idx_faculty_department
+  ON faculty (department);
+
+-- Vector similarity index (HNSW for fast approximate nearest neighbor search)
+-- Note: This may take time to build on large datasets
+CREATE INDEX IF NOT EXISTS idx_faculty_embedding
+  ON faculty USING hnsw (embedding vector_cosine_ops);
+
+-- ============================================================================
+-- FUNCTIONS
+-- ============================================================================
+
+-- Automatically update updated_at timestamp
+CREATE OR REPLACE FUNCTION update_updated_at_column()
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updated_at = NOW();
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Trigger to call the function
+CREATE TRIGGER update_faculty_updated_at
+    BEFORE UPDATE ON faculty
+    FOR EACH ROW
+    EXECUTE FUNCTION update_updated_at_column();
+
+-- ============================================================================
+-- VECTOR SIMILARITY SEARCH FUNCTION
+-- ============================================================================
+
+-- Search for similar faculty using vector similarity
+CREATE OR REPLACE FUNCTION search_similar_faculty(
+  query_embedding VECTOR(1536),
+  match_threshold FLOAT DEFAULT 0.3,
+  match_count INT DEFAULT 10,
+  filter_school TEXT DEFAULT NULL,
+  filter_department TEXT DEFAULT NULL
+)
+RETURNS TABLE (
+  faculty_id TEXT,
+  name TEXT,
+  keywords TEXT,
+  title TEXT,
+  school TEXT,
+  department TEXT,
+  similarity FLOAT
+)
+LANGUAGE sql
+AS $$
+  SELECT
+    f.faculty_id,
+    f.name,
+    f.keywords,
+    f.title,
+    f.school,
+    f.department,
+    1 - (f.embedding <=> query_embedding) AS similarity
+  FROM faculty f
+  WHERE
+    f.embedding IS NOT NULL
+    AND 1 - (f.embedding <=> query_embedding) > match_threshold
+    AND (filter_school IS NULL OR f.school = filter_school)
+    AND (filter_department IS NULL OR f.department = filter_department)
+  ORDER BY f.embedding <=> query_embedding
+  LIMIT match_count;
+$$;
+
+-- ============================================================================
+-- HELPER FUNCTIONS
+-- ============================================================================
+
+-- Get faculty count
+CREATE OR REPLACE FUNCTION get_faculty_count()
+RETURNS INTEGER
+LANGUAGE sql
+AS $$
+  SELECT COUNT(*)::INTEGER FROM faculty;
+$$;
+
+-- Get faculty with embeddings count
+CREATE OR REPLACE FUNCTION get_faculty_with_embeddings_count()
+RETURNS INTEGER
+LANGUAGE sql
+AS $$
+  SELECT COUNT(*)::INTEGER FROM faculty WHERE embedding IS NOT NULL;
+$$;
+
+-- Get unique schools
+CREATE OR REPLACE FUNCTION get_schools()
+RETURNS TABLE (school TEXT, count BIGINT)
+LANGUAGE sql
+AS $$
+  SELECT school, COUNT(*) as count
+  FROM faculty
+  GROUP BY school
+  ORDER BY count DESC, school;
+$$;
+
+-- Get unique departments
+CREATE OR REPLACE FUNCTION get_departments(filter_school TEXT DEFAULT NULL)
+RETURNS TABLE (department TEXT, count BIGINT)
+LANGUAGE sql
+AS $$
+  SELECT department, COUNT(*) as count
+  FROM faculty
+  WHERE filter_school IS NULL OR school = filter_school
+  GROUP BY department
+  ORDER BY count DESC, department;
+$$;
+
+-- ============================================================================
+-- COMMENTS
+-- ============================================================================
+
+COMMENT ON TABLE faculty IS 'Faculty members with research keywords and embeddings';
+COMMENT ON COLUMN faculty.embedding IS 'Vector embedding (384-dim padded to 1536) generated by Transformers.js';
+COMMENT ON FUNCTION search_similar_faculty IS 'Find similar faculty using cosine similarity on embeddings';
+
+-- ============================================================================
+-- STATS
+-- ============================================================================
+
+-- Print setup summary
+DO $$
+BEGIN
+  RAISE NOTICE '==============================================';
+  RAISE NOTICE 'Faculty Research Match - Database Setup Complete';
+  RAISE NOTICE '==============================================';
+  RAISE NOTICE 'Extension: pgvector ✓';
+  RAISE NOTICE 'Table: faculty ✓';
+  RAISE NOTICE 'Indexes: 5 created ✓';
+  RAISE NOTICE 'Functions: 5 created ✓';
+  RAISE NOTICE '==============================================';
+END $$;

@@ -1,4 +1,4 @@
-import { createServiceRoleClient } from '@/lib/supabase'
+import { createServiceRoleClient } from '@/lib/database'
 import { generateEmbeddings, prepareKeywordsForEmbedding } from '@/lib/openai'
 import { NextRequest, NextResponse } from 'next/server'
 

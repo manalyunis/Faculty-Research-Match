@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServiceRoleClient } from '@/lib/supabase'
+import { createServiceRoleClient } from '@/lib/database'
 import { advancedSimilarityService } from '@/lib/advanced-similarity'
 
 function extractReal384Embedding(embedding1536: number[]): number[] {
@@ -55,61 +55,13 @@ export async function GET(request: NextRequest) {
 
     console.log(`Processing ${faculty.length} faculty for network...`)
 
-    // Get clustering information
-    const clusteringResult = await advancedSimilarityService.testPythonEnvironment()
-    let clusters: any = null
-
-    if (clusteringResult && faculty.length >= 5) {
-      try {
-        // Extract embeddings for clustering
-        const embeddings = faculty.map(f => {
-          const storedEmbedding = JSON.parse(f.embedding)
-          if (storedEmbedding.length === 1536) {
-            return extractReal384Embedding(storedEmbedding)
-          } else if (storedEmbedding.length === 384) {
-            return storedEmbedding
-          } else {
-            throw new Error(`Unexpected embedding size: ${storedEmbedding.length}`)
-          }
-        })
-
-        const facultyData = faculty.map(f => ({
-          faculty_id: f.faculty_id,
-          name: f.name,
-          title: f.title,
-          school: f.school,
-          department: f.department
-        }))
-
-        clusters = await advancedSimilarityService.clusterFaculty(embeddings, facultyData, 3)
-      } catch (error) {
-        console.error('Clustering failed, using departments as clusters:', error)
-      }
-    }
-
-    // Build nodes with cluster information
+    // Use department-based clustering (advanced clustering not available with Transformers.js)
+    // Build nodes with department-based cluster information
+    const departments = [...new Set(faculty.map(f => f.department))]
     const nodes = faculty.map((f, index) => {
-      let clusterId = 0
-      let clusterColor = '#6b7280' // Default gray
-
-      if (clusters && clusters.clusters) {
-        // Find which cluster this faculty belongs to
-        const cluster = clusters.clusters.find((c: any) =>
-          c.members.some((m: any) => m.faculty_id === f.faculty_id)
-        )
-        if (cluster) {
-          clusterId = cluster.cluster_id
-          // Generate distinct colors for clusters
-          const colors = ['#ef4444', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899']
-          clusterColor = colors[clusterId % colors.length]
-        }
-      } else {
-        // Fallback: use department as cluster
-        const departments = [...new Set(faculty.map(f => f.department))]
-        clusterId = departments.indexOf(f.department)
-        const colors = ['#ef4444', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899', '#6b7280', '#14b8a6']
-        clusterColor = colors[clusterId % colors.length]
-      }
+      const clusterId = departments.indexOf(f.department)
+      const colors = ['#ef4444', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899', '#6b7280', '#14b8a6']
+      const clusterColor = colors[clusterId % colors.length]
 
       return {
         id: f.faculty_id,
@@ -275,11 +227,11 @@ export async function GET(request: NextRequest) {
         totalConnections: links.length,
         similarityThreshold: threshold,
         maxConnectionsPerNode: maxConnections,
-        clustering: clusters ? {
-          algorithm: clusters.algorithm_used,
-          totalClusters: clusters.total_clusters,
-          silhouetteScore: clusters.silhouette_score
-        } : null,
+        clustering: {
+          algorithm: 'department-based',
+          totalClusters: departments.length,
+          note: 'Using department-based grouping. Advanced clustering (HDBSCAN) not available in this deployment.'
+        },
         filters: {
           school: filterSchool,
           department: filterDepartment

@@ -1,4 +1,4 @@
-import { createServiceRoleClient } from '@/lib/supabase'
+import { createServiceRoleClient } from '@/lib/database'
 import { calculateAdvancedSimilarity } from '@/lib/advanced-similarity'
 import { calculateSimilarFaculty } from '@/lib/similarity'
 import { NextRequest, NextResponse } from 'next/server'

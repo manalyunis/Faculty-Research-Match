@@ -1,4 +1,4 @@
-import { createServiceRoleClient } from '@/lib/supabase'
+import { createServiceRoleClient } from '@/lib/database'
 
 interface FacultyRecord {
   faculty_id: string
