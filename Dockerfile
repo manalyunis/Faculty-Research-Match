@@ -33,8 +33,12 @@ FROM node:20-slim AS runner
 
 WORKDIR /app
 
-# Install curl for healthcheck
-RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
+# Install runtime dependencies for ONNX Runtime and curl for healthcheck
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    libgomp1 \
+    libstdc++6 \
+    && rm -rf /var/lib/apt/lists/*
 
 # Create non-root user
 RUN groupadd --system --gid 1001 nodejs
@@ -47,6 +51,10 @@ COPY --from=builder /app/package.json ./package.json
 # Copy .next build
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+# Copy ONNX Runtime native binaries (not included in standalone by default)
+COPY --from=builder --chown=nextjs:nodejs /app/node_modules/onnxruntime-node ./node_modules/onnxruntime-node
+COPY --from=builder --chown=nextjs:nodejs /app/node_modules/@xenova ./node_modules/@xenova
 
 # Create cache directory for Transformers.js models
 RUN mkdir -p /app/.cache && chown -R nextjs:nodejs /app/.cache
