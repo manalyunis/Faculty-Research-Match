@@ -2,6 +2,9 @@ import { createServiceRoleClient } from '@/lib/database'
 import { generateEmbeddings, padEmbeddingTo1536 } from '@/lib/transformers-embedding'
 import { NextRequest, NextResponse } from 'next/server'
 
+// Force dynamic rendering - don't prerender during build (Transformers.js needs runtime)
+export const dynamic = 'force-dynamic'
+
 export async function POST(request: NextRequest) {
   try {
     const data = await request.json()

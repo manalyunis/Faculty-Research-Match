@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server'
 import { generateEmbedding, cosineSimilarity, testEmbeddingService } from '@/lib/transformers-embedding'
 
+// Force dynamic rendering - don't prerender during build (Transformers.js needs runtime)
+export const dynamic = 'force-dynamic'
+
 /**
  * Test endpoint to verify Transformers.js is working
  * No database connection required

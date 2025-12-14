@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createServiceRoleClient } from '@/lib/database'
 import { advancedSimilarityService } from '@/lib/advanced-similarity'
 
+// Force dynamic rendering - don't prerender during build (Transformers.js needs runtime)
+export const dynamic = 'force-dynamic'
+
 function extractReal384Embedding(embedding1536: number[]): number[] {
   if (embedding1536.length !== 1536) {
     throw new Error(`Expected 1536 dimensions, got ${embedding1536.length}`)

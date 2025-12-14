@@ -3,6 +3,9 @@ import { calculateAdvancedSimilarity } from '@/lib/advanced-similarity'
 import { calculateSimilarFaculty } from '@/lib/similarity'
 import { NextRequest, NextResponse } from 'next/server'
 
+// Force dynamic rendering - don't prerender during build (Transformers.js needs runtime)
+export const dynamic = 'force-dynamic'
+
 interface RouteParams {
   params: Promise<{
     id: string

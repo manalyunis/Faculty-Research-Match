@@ -2,6 +2,9 @@ import { createServiceRoleClient } from '@/lib/database'
 import { searchAdvancedSimilarity } from '@/lib/advanced-similarity'
 import { NextRequest, NextResponse } from 'next/server'
 
+// Force dynamic rendering - don't prerender during build (Transformers.js needs runtime)
+export const dynamic = 'force-dynamic'
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url)
