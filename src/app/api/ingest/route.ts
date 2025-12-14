@@ -61,54 +61,65 @@ export async function POST(request: NextRequest) {
         embedding: paddedEmbeddings[index]
       }))
 
-      // Insert into database using upsert to handle updates
-      const { data: insertedData, error: insertError } = await supabase
-        .from('faculty')
-        .upsert(facultyWithEmbeddings, {
-          onConflict: 'faculty_id',
-          ignoreDuplicates: false
-        })
-        .select('faculty_id, name')
-
-      if (insertError) {
-        console.error('Database insert error:', insertError)
-        return NextResponse.json(
-          { error: 'Failed to insert faculty data into database' },
-          { status: 500 }
-        )
-      }
+      // Insert into database using raw SQL (PostgreSQL doesn't have Supabase's upsert method)
+      const db = supabase as any
+      const insertedCount = await db.transaction(async (client: any) => {
+        let count = 0
+        for (const faculty of facultyWithEmbeddings) {
+          const result = await client.query(
+            `INSERT INTO faculty (faculty_id, name, keywords, title, school, department, embedding)
+             VALUES ($1, $2, $3, $4, $5, $6, $7)
+             ON CONFLICT (faculty_id) DO UPDATE SET
+               name = EXCLUDED.name,
+               keywords = EXCLUDED.keywords,
+               title = EXCLUDED.title,
+               school = EXCLUDED.school,
+               department = EXCLUDED.department,
+               embedding = EXCLUDED.embedding,
+               updated_at = NOW()`,
+            [faculty.faculty_id, faculty.name, faculty.keywords, faculty.title, faculty.school, faculty.department, JSON.stringify(faculty.embedding)]
+          )
+          count += result.rowCount || 0
+        }
+        return count
+      })
 
       return NextResponse.json({
         message: `Successfully processed ${validatedFaculty.length} faculty members`,
-        inserted: insertedData?.length || validatedFaculty.length,
-        faculty: insertedData
+        inserted: insertedCount,
+        faculty: validatedFaculty.map(f => ({ faculty_id: f.faculty_id, name: f.name }))
       })
 
     } catch (embeddingError) {
       console.error('Embedding generation error:', embeddingError)
 
-      // Fallback: Insert without embeddings
-      const { data: insertedData, error: insertError } = await supabase
-        .from('faculty')
-        .upsert(validatedFaculty, {
-          onConflict: 'faculty_id',
-          ignoreDuplicates: false
-        })
-        .select('faculty_id, name')
-
-      if (insertError) {
-        console.error('Database insert error:', insertError)
-        return NextResponse.json(
-          { error: 'Failed to insert faculty data into database' },
-          { status: 500 }
-        )
-      }
+      // Fallback: Insert without embeddings using raw SQL
+      const db = supabase as any
+      const insertedCount = await db.transaction(async (client: any) => {
+        let count = 0
+        for (const faculty of validatedFaculty) {
+          const result = await client.query(
+            `INSERT INTO faculty (faculty_id, name, keywords, title, school, department)
+             VALUES ($1, $2, $3, $4, $5, $6)
+             ON CONFLICT (faculty_id) DO UPDATE SET
+               name = EXCLUDED.name,
+               keywords = EXCLUDED.keywords,
+               title = EXCLUDED.title,
+               school = EXCLUDED.school,
+               department = EXCLUDED.department,
+               updated_at = NOW()`,
+            [faculty.faculty_id, faculty.name, faculty.keywords, faculty.title, faculty.school, faculty.department]
+          )
+          count += result.rowCount || 0
+        }
+        return count
+      })
 
       return NextResponse.json({
         message: `Successfully processed ${validatedFaculty.length} faculty members (without embeddings)`,
-        inserted: insertedData?.length || validatedFaculty.length,
+        inserted: insertedCount,
         warning: 'Embeddings were not generated due to model error',
-        faculty: insertedData
+        faculty: validatedFaculty.map(f => ({ faculty_id: f.faculty_id, name: f.name }))
       })
     }
 
