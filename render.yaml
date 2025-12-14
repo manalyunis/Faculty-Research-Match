@@ -1,14 +1,6 @@
 services:
-  # PostgreSQL Database
-  - type: pserv
-    name: faculty-research-db
-    plan: free # Free tier: 90 days, then auto-pauses
-    region: oregon # Choose your preferred region
-    databaseName: faculty_research
-    databaseUser: faculty_admin
-    # Note: Render free PostgreSQL includes pgvector extension!
-
   # Faculty Research Match Web Service
+  # Note: Links to existing database 'faculty-research-db'
   - type: web
     name: faculty-research-match
     runtime: docker
