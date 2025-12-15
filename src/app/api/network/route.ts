@@ -46,7 +46,7 @@ export async function GET(request: NextRequest) {
       query = query.eq('department', filterDepartment)
     }
 
-    const { data: faculty, error } = await query
+    const { data: faculty, error } = await query.execute()
 
     if (error || !faculty) {
       console.error('Failed to fetch faculty data:', error)
