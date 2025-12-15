@@ -305,7 +305,7 @@ export default function NetworkPage() {
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-orange-600">
-                      {networkData.metadata.clustering.silhouetteScore.toFixed(3)}
+                      {networkData.metadata.clustering.silhouetteScore?.toFixed(3) || 'N/A'}
                     </div>
                     <div className="text-sm text-gray-600">Quality Score</div>
                   </div>
