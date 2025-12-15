@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
       queryBuilder = queryBuilder.eq('department', department)
     }
 
-    const { data: nameMatches, error: nameError } = await queryBuilder.limit(limit)
+    const { data: nameMatches, error: nameError } = await queryBuilder.limit(limit).execute()
 
     if (nameError) {
       console.error('Name search error:', nameError)
@@ -77,6 +77,7 @@ export async function GET(request: NextRequest) {
         .select('*')
         .textSearch('keywords', query)
         .limit(limit)
+        .execute()
 
       if (keywordError) {
         console.error('Keyword search error:', keywordError)
@@ -102,6 +103,7 @@ export async function GET(request: NextRequest) {
           .select('*')
           .textSearch('keywords', query)
           .limit(limit)
+          .execute()
 
         if (keywordError) {
           throw keywordError

@@ -22,7 +22,7 @@ export function getPool(): Pool {
 
     pool = new Pool({
       connectionString,
-      ssl: process.env.NODE_ENV === 'production' ? {
+      ssl: connectionString.includes('render.com') || process.env.NODE_ENV === 'production' ? {
         rejectUnauthorized: false // Render requires this
       } : false,
       max: 20, // Maximum number of clients in the pool
@@ -149,6 +149,16 @@ export class QueryBuilder<T> {
     return this
   }
 
+  ilike(field: string, pattern: string): this {
+    this.whereConditions.push({ field, value: pattern, operator: 'ILIKE' })
+    return this
+  }
+
+  textSearch(field: string, query: string): this {
+    this.whereConditions.push({ field, value: query, operator: 'TEXTSEARCH' })
+    return this
+  }
+
   limit(count: number): this {
     this.limitValue = count
     return this
@@ -174,6 +184,11 @@ export class QueryBuilder<T> {
       const conditions = this.whereConditions.map((cond, index) => {
         if (cond.operator === 'IS NOT NULL') {
           return `${cond.field} IS NOT NULL`
+        }
+        if (cond.operator === 'TEXTSEARCH') {
+          // Use PostgreSQL full-text search
+          params.push(cond.value)
+          return `to_tsvector('english', ${cond.field}) @@ plainto_tsquery('english', $${params.length})`
         }
         params.push(cond.value)
         return `${cond.field} ${cond.operator} $${params.length}`
