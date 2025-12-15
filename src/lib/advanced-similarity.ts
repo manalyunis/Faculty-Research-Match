@@ -273,7 +273,7 @@ export async function calculateAdvancedSimilarity(
     if (filterSchool) query = query.eq('school', filterSchool)
     if (filterDepartment) query = query.eq('department', filterDepartment)
 
-    const { data: allFaculty, error } = await query
+    const { data: allFaculty, error } = await query.execute()
 
     if (error || !allFaculty) {
       console.error('[AdvancedSimilarity] Failed to fetch faculty data:', error)
@@ -405,7 +405,7 @@ export async function searchAdvancedSimilarity(
     if (filterSchool) queryBuilder = queryBuilder.eq('school', filterSchool)
     if (filterDepartment) queryBuilder = queryBuilder.eq('department', filterDepartment)
 
-    const { data: allFaculty, error } = await queryBuilder
+    const { data: allFaculty, error } = await queryBuilder.execute()
 
     if (error || !allFaculty) {
       console.error('[AdvancedSimilarity] Failed to fetch faculty data:', error)
