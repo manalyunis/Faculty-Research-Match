@@ -133,7 +133,7 @@ export async function calculateSimilarFaculty(
     query = query.eq('department', filterDepartment)
   }
 
-  const { data: allFaculty, error } = await query
+  const { data: allFaculty, error } = await query.execute()
 
   if (error || !allFaculty) {
     console.error('Error fetching faculty:', error)
@@ -232,7 +232,7 @@ export async function searchSimilarFaculty(
     dbQuery = dbQuery.eq('department', filterDepartment)
   }
 
-  const { data: allFaculty, error } = await dbQuery
+  const { data: allFaculty, error } = await dbQuery.execute()
 
   if (error || !allFaculty) {
     console.error('Error fetching faculty:', error)
